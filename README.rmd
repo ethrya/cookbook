@@ -1,8 +1,9 @@
 ---
-output:
-  pdf_document: default
-  html_document: default
+title: "README"
+output: github_document
 ---
+
+
 # Recipies
 ## Lentil Soup
 
