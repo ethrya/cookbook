@@ -154,3 +154,35 @@ stable](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://www.ti
 2.  Add spices and herbs. Add butter and wine. Allow butter to melt.
 3.  Pressure cook 20 mins. Release after 5 mins.
 4.  Boil off excess fluid.
+
+## Chilli
+
+[![Lifecycle:
+eperimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+
+### Ingredients
+
+  - Onion
+  - Garlic
+  - Red + green chilli
+  - Capsicum
+  - Cumin powder
+  - Cayenne papper
+  - Coriander
+  - Oregano
+  - Praprica
+  - Salt
+  - Butter
+  - Beans (2 cans)
+  - Tomato (2 cans)
+  - Tofu (1 packet)
+  - Beef stock (1 cup)
+
+### Steps
+
+1.  Brown onion, garlic, and chilli. Add in capsicum.
+2.  Add spices/herbs to taste.
+3.  Add tofu, tomato and beans. Stir until heated. Add butter and allow
+    to melt.
+4.  Cook on high pressure to 10 minutes. Allow to naturally release
+    pressure \~20 min. Brown to remove any extra liquid.
