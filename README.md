@@ -186,3 +186,27 @@ eperimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](ht
     to melt.
 4.  Cook on high pressure to 10 minutes. Allow to naturally release
     pressure \~20 min. Brown to remove any extra liquid.
+
+
+## Eggplant and black bean pasta
+
+[![Lifecycle:
+maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+
+### Ingredients
+
+- Butter
+- Eggplant
+- Salt
+- Onion
+- Garlic
+- Tomato cans (2x 400g)
+- Black beans (small can)
+- olives
+
+### Steps
+
+1. Add butter to cooker on sautee. Allow to melt and add eggplant and salt. Allow egplant to soften. Once soft add onion and allow to brown. Once brown add garlic for ~1 min. Add tomato cans and beans.
+1. Pressure cook on high pressure for 10 mins.
+1. Release manually. Add olives and 100 mL of olive oil. Pressure cook for another 10 mins.
+1. Cook pasta while allowing to naturally release pressure.
