@@ -118,6 +118,11 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
     probably a better aim. May have issues with differences in
     barley/lentil cooking times.
 
+#### Sources
+
+-   Inspired by: *The ultimate traybake ragu*, Y. Ottolenghi and I.
+    Belfrage 2020, Flavour, Ebury Press.
+
 ### Brocolli cream pasta
 
 [![Lifecycle:
@@ -189,7 +194,7 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 ### Chilli
 
 [![Lifecycle:
-experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 
 #### Ingredients
 

@@ -95,6 +95,9 @@ output: github_document
 #### Notes
 - Need to think about fluid and lentil/barley cooking time. Initially used 2.25 cups of fluid and this wasn't enough. 3.25 cups is probably a better aim. May have issues with differences in barley/lentil cooking times.
 
+#### Sources
+- Inspired by: *The ultimate traybake ragu*, Y. Ottolenghi and I. Belfrage 2020, Flavour, Ebury Press.
+
 ### Brocolli cream pasta
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 
@@ -155,7 +158,7 @@ output: github_document
 
 ### Chilli
 
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 
 #### Ingredients
 
