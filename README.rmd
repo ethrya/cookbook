@@ -60,6 +60,41 @@ output: github_document
 - Adapted from: [Salt Fat Acid Heat's](https://www.saltfatacidheat.com) (Samin Nosrat) *Pasta alla Pomarola* (p. 292)
 - Adapted from: Delicious Recipies for you Pressure Cooker and Slow Cooker's (Women's weekly) *Eggplant, olive and Pine Nut Pasta Sauce*
 
+### Lentil ragu
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+
+#### Ingredients
+
+- 2 onions
+- 5 garlic cloves
+- carrot
+- mushrooms (300g)
+- 4 tomatoes
+- Butter (100g)
+- 4 Tbsp tomato paste
+- miso paste
+- soy sauce
+- cumin seeds
+- Italian herbs
+- Cayenne pepper
+- 1/2 cup wine
+- 3 cups beef stock*
+- 75 mL milk
+- 1 cup brown/green lentils
+- 1/2 cup pearl barley
+
+#### Steps
+
+1. In a food processor, finely chop onion and garlic, then mushrooms, then carrot, then tomatoes.
+1. Brown onion and barlic in oil. Then add butter, some salt and mushrooms. Brown and wait for smell to change. Add carrot and tomatoes and wait for fluid to largely boil off.
+1. Add tomatoe paste, miso paste, soy sauce, herbs/spices and wine. Cook until wine has largely boiled off.
+1. Add beef stock and milk. Pressure cook for 20 Mins on high. After 20mins wait $\approx$ 5 mins and release pressure.
+1. Add lentils and barley and cook for a further 15 mins. Allow pressure to naturally release.
+
+
+#### Notes
+- Need to think about fluid and lentil/barley cooking time. Initially used 2.25 cups of fluid and this wasn't enough. 3.25 cups is probably a better aim. May have issues with differences in barley/lentil cooking times.
+
 ### Brocolli cream pasta
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 
