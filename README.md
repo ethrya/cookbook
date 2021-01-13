@@ -327,3 +327,27 @@ maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://w
     Toor Dal and Rice,
     <https://twosleevers.com/pressure-cooker-rice-and-dal/>
 -   Inspired by: The Student Kitchen (2016), Herron Books
+
+### Bean Sausage Rolls
+
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+
+#### Ingredients
+
+-   beans (2x cans)
+-   tofu (200g)
+-   onion
+-   garlic
+-   butter/oil (100g)
+-   Italian herbs
+-   Paprika
+-   Cumin
+-   bread 2 slices
+-   puff pastry
+
+#### Steps
+
+1.  mince beans into a rough paste.
+2.  Add other ingredients
+3.  Put mince onto pastry and roll. Cook in oven at 200C for 25 mins
