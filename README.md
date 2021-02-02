@@ -90,10 +90,11 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 -   soy sauce
 -   cumin seeds
 -   Italian herbs
+-   Praprika
 -   Cayenne pepper
 -   1/2 cup wine
--   3 cups beef stock\*
--   75 mL milk
+-   4.5 cups beef stock\*
+-   100 mL milk
 -   1 cup brown/green lentils
 -   1/2 cup pearl barley
 
@@ -101,27 +102,22 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 
 1.  In a food processor, finely chop onion and garlic, then mushrooms,
     then carrot, then tomatoes.
-2.  Brown onion and barlic in oil. Then add butter, some salt and
+2.  Brown onion and garlic in oil. Then add butter, some salt and
     mushrooms. Brown and wait for smell to change. Add carrot and
     tomatoes and wait for fluid to largely boil off.
-3.  Add tomatoe paste, miso paste, soy sauce, herbs/spices and wine.
-    Cook until wine has largely boiled off.
-4.  Add beef stock and milk. Pressure cook for 20 Mins on high. After
-    20mins wait ≈ 5 mins and release pressure.
-5.  Add lentils and barley and cook for a further 15 mins. Allow
-    pressure to naturally release.
-
-#### Notes
-
--   Need to think about fluid and lentil/barley cooking time. Initially
-    used 2.25 cups of fluid and this wasn’t enough. 3.25 cups is
-    probably a better aim. May have issues with differences in
-    barley/lentil cooking times.
+3.  Add tomato paste, miso paste, soy sauce, herbs/spices, wine, 1 cup
+    of beef stock and milk. Cook until thickened has largely boiled off.
+4.  Pressure cook for 15 Mins on high. Release pressure after 5 mins.
+5.  Add remaining beef stock, lentils and barley and cook for a further
+    25 mins. Allow pressure to largely naturally release (around 15
+    mins).
 
 #### Sources
 
 -   Inspired by: *The ultimate traybake ragu*, Y. Ottolenghi and I.
-    Belfrage 2020, Flavour, Ebury Press.
+    Belfrage 2020, Flavour, Ebury Press. *This recipe is clearly a
+    traybake ragu and is clearly very different. The ingredients are
+    very similar but the method is pretty much completely different.*
 
 ### Brocolli cream pasta
 
@@ -210,6 +206,9 @@ maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://w
 -   Cinnamon
 -   Brown sugar
 -   Salt
+-   Miso paste
+-   Soy sauce
+-   brown sugar (1 large tsp)
 -   Butter
 -   Tomato diced (2 cans)
 -   Tomato paste
@@ -222,8 +221,8 @@ maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://w
 
 1.  Brown onion, garlic, and chilli. Add in capsicum.
 2.  Add spices/herbs to taste.
-3.  Add tofu, tomato, beer and stock. Stir until heated. Add butter and
-    allow to melt.
+3.  Add tofu, tomato, beer miso, soy sauce, sugarand stock. Stir until
+    heated. Add butter and allow to melt.
 4.  Cook on high pressure for 20 minutes. Allow to naturally release
     pressure \~10 min.
 5.  Tasyte and add spices as required. Add beans and cook for another 10
@@ -343,7 +342,8 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 -   Italian herbs
 -   Paprika
 -   Cumin
--   bread 2 slices
+-   Egg (beaten)
+-   bread 2 slices torn into small pieces
 -   puff pastry
 
 #### Steps
@@ -351,3 +351,8 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 1.  mince beans into a rough paste.
 2.  Add other ingredients
 3.  Put mince onto pastry and roll. Cook in oven at 200C for 25 mins
+
+#### Notes
+
+Have also tried this with eggplant instead of tofu and this works
+better.
