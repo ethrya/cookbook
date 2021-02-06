@@ -229,6 +229,89 @@ maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://w
     mins.
 6.  Naturally release pressure. Brown to remove any extra liquid.
 
+## Sausage rolls
+
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+
+### Bean and tofu base
+
+#### Ingredients
+
+-   beans (2x cans)
+-   tofu (200g)
+-   onion
+-   garlic
+-   oil
+
+#### Steps
+
+1.  Mince beans with a fork or blender until forms a soft paste, with
+    some chunks remaining. Mince tofu with a fork. Finely slice onion
+    and garlic.
+2.  Stir ingredients together.
+
+### Bean and eggplant
+
+#### Ingredients
+
+-   eggplant
+-   onion
+-   garlic
+-   oil or butter
+-   beans (2x cans)
+
+#### Steps
+
+1.  Slice eggplant and rub with salt. Wait 20 mins.
+2.  Finely dice eggplant, onion and garlic.
+3.  Brown onion, then add eggplant and garlic.
+4.  Mince beans into a smoothish paste. Add to the onion/eggplant
+    mixture. Add additional oil if required.
+
+### Mushroom and eggplant
+
+#### Ingredients
+
+-   Mushrooms (200g)
+-   Eggplant
+-   Onion
+-   Garlic
+-   Chilli
+-   Oil
+-   Butter
+
+#### Steps
+
+1.  Slice eggplant and rub with salt. Wait 30 mins.
+2.  In separate batches, blend mushrooms, eggplant, onion, garlic and
+    chilli in a blender.
+3.  Brown onion in oil. Add butter and salt, once melted add mushrooms
+    and allow to brown.
+4.  Make space in pan, add more oil if needed and add garlic and Chilli.
+    Stir in side of pan until ready then mix into remaining mixture.
+
+### Sausage Rolls
+
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+
+#### Ingredients
+
+-   Base mix
+-   Italian herbs
+-   Paprika
+-   Cumin
+-   Egg (beaten)
+-   bread 2 slices torn into small pieces
+-   puff pastry
+
+#### Steps
+
+1.  Use one portion of base mix. Add herbs, spices and bread and mix
+    together. Add egg and stir thoroughly.
+2.  Put mince onto pastry and roll. Cook in oven at 200C for 25 mins
+
 ## Misc
 
 ### Red beans and rice
@@ -326,33 +409,3 @@ maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://w
     Toor Dal and Rice,
     <https://twosleevers.com/pressure-cooker-rice-and-dal/>
 -   Inspired by: The Student Kitchen (2016), Herron Books
-
-### Bean Sausage Rolls
-
-[![Lifecycle:
-experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
-
-#### Ingredients
-
--   beans (2x cans)
--   tofu (200g)
--   onion
--   garlic
--   butter/oil (100g)
--   Italian herbs
--   Paprika
--   Cumin
--   Egg (beaten)
--   bread 2 slices torn into small pieces
--   puff pastry
-
-#### Steps
-
-1.  mince beans into a rough paste.
-2.  Add other ingredients
-3.  Put mince onto pastry and roll. Cook in oven at 200C for 25 mins
-
-#### Notes
-
-Have also tried this with eggplant instead of tofu and this works
-better.
