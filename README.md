@@ -150,10 +150,10 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 
 ## Mexican
 
-### Tofu tacos
+### Tofu burritos
 
 [![Lifecycle:
-experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 
 #### Ingedients
 
@@ -167,21 +167,24 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 -   Praprika
 -   Salt
 -   Corriander
+-   Miso paste
 -   Oregano
 -   Black beans
 -   Beer (Australia larger) (&lt;1/2 cup)
 -   Lime juice (1/2 lime)
--   Butter (50g)
+-   Butter (50g) or olive oil
+-   1 desert spoon corn flour
 
 #### Steps
 
 1.  Soak ground tofu in 1/2 cup of strong beef-style stock.
-2.  Brown onion in oil. Add garlic and chilli. Add tofu. Cook until
-    stock/water begins to boil off.
+2.  Brown onion in oil. Add garlic and chilli.
 3.  Add spices and salt. Cook for a while.
-4.  Add Black beans, beer and lime juice. Stir and let settle.
-5.  Add butter and allow to melt. Stir in.
-6.  Pressure cook 20mins (TBC) or slow cook (3h)
+4.  Add tofu and miso paste. Cook until stock/water begins to boil off.
+5.  Add Black beans, beer and lime juice. Boil off much of the remaining
+    fluid. Stir and let settle. Add corn flour.
+6.  Add butter or additional oil. Stir in.
+7.  Pressure cook 20mins (TBC) or slow cook (3h)
 
 #### Sources
 
