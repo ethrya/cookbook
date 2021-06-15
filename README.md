@@ -406,6 +406,54 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 
 ## Misc
 
+### Vegan Eggplant Risotto
+
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+
+#### Ingredients
+
+-   Olive oil
+-   Margarine\*
+-   Mushroom (\~250g)
+-   Eggplant (salted)
+-   Onion
+-   Garlic
+-   Wine (1/2 cup)
+-   Olives
+-   Frozen peas
+-   Italian herbs
+-   Soy sauce (2 tsp)
+-   Miso paste
+-   Risotto rice (1.5 cups)
+-   Vegan chicken stock (3 cups)
+
+#### Steps
+
+1.  Cook mushrooms in oil and/or margarine and salt until it begins to
+    soften. Add eggplant and allow this to soften. Then add onion. Then
+    make space in the pan, add more oil and quickly cook garlic in this.
+2.  Add in rice and allow to toast. While cooking, add in pepper,
+    italian herbs, miso paste and soy sauce.
+3.  Add in wine and allow to partially cook off. While cooking off, add
+    peas and olives. Once cooked off add stock.
+4.  Cook on low pressure for 5 mins. Once finished, forcibly release
+    pressure. Stir and then set to brown until remaining liquid boils
+    off, while stiring regularly. A small amount of liquid can remain.
+
+#### Source
+
+-   Inspired by:
+    <https://www.seriouseats.com/pressure-cooker-mushroom-risotto-recipe>
+-   Inspired by:
+    <https://cooking.nytimes.com/recipes/1015845-pressure-cooker-porcini-risotto>
+
+#### Notes
+
+I was pretty concerned about not including butter or cheese. But this
+was actually fine and a bit lighter (better?) than other risottos I have
+made, but still rich enough.
+
 ### Red beans and rice
 
 [![Lifecycle:
