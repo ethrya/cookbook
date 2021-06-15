@@ -237,6 +237,90 @@ maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://w
     mins.
 6.  Naturally release pressure. Brown to remove any extra liquid.
 
+## Curry
+
+### Yellow Dal
+
+[![Lifecycle:
+maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+
+#### Ingredients
+
+-   Mustard seeds
+-   Onion
+-   Garlic
+-   Ginger (small diced piece)
+-   Green chili
+-   Ground cumin
+-   Garmam masala
+-   Curry powder
+-   Ground coriander
+-   Tumeric
+-   Salt
+-   Tomato diced (1 medium)
+-   Yellow split peas (1 cup)
+-   Chicken-style stock (2.5 cup)
+
+#### Steps
+
+1.  Cook mustard seeds until sputter. Add onion, garlic chilli, and
+    ginger. Brown.
+2.  Add tomatoes, tumeric, cumin, salt, curry powder, gamam masla. Heat
+    through.
+3.  Add dal and stock.
+4.  Cook 10 mins on high pressure. Naturally release pressure.
+
+#### Source
+
+-   Adapted from: Urvashi Pitre 2020, Pressure Cooker Rice and Dal \|
+    Toor Dal and Rice,
+    <https://twosleevers.com/pressure-cooker-rice-and-dal/>
+-   Inspired by: The Student Kitchen (2016), Herron Books
+
+### Brinjal (Eggplant) curry
+
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+
+#### Ingredients
+
+-   Mustard seeds
+-   Brown onion
+-   Garlic
+-   Ginger
+-   1 medium eggplant (cut into chunks and salted)
+-   Tinned tomatoes (1 tin)
+-   Tomato paste (\~2 Tbsp)
+-   Chilli
+-   Soy sauce
+-   Miso paste
+-   Coconut milk (50 mL)
+-   Vegan beef stock (1/2 cup)
+-   Cardamon
+-   Pararika
+-   Garram masala
+-   Cloves
+-   Pepper
+-   Cayenne pepper
+-   Cumin
+-   Salt
+-   Corriander powder
+
+#### Steps
+
+1.  Fry mustard seeds in oil. Start to brown onions. Once onions start
+    to brown add eggplant. Once brown add garlic, ginger and chilli and
+    cook quickly. Add spices.
+2.  Add in tinned tomatoes and herbs. Add soy sauce, miso paste and
+    cocnut milk. Add vegetable or vegan beef stock.
+3.  Pressure cook for 20 mins on high pressure. Allow to naturally
+    pressure release.
+
+#### Source
+
+-   Adapted from:
+    <https://www.recipetineats.com/eggplant-curry-south-indian/>
+
 ## Sausage rolls
 
 [![Lifecycle:
@@ -379,41 +463,3 @@ maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://w
     transparent
 2.  Add lentils + tomatoes, water stock cubes. Cover and bring to boil.
 3.  Simmer 1.5h until lentils ready.
-
-### Yellow Dal
-
-[![Lifecycle:
-maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://www.tidyverse.org/lifecycle/#maturing)
-
-#### Ingredients
-
--   Mustard seeds
--   Onion
--   Garlic
--   Ginger (small diced piece)
--   Green chili
--   Ground cumin
--   Garmam masala
--   Curry powder
--   Ground coriander
--   Tumeric
--   Salt
--   Tomato diced (1 medium)
--   Yellow split peas (1 cup)
--   Chicken-style stock (2.5 cup)
-
-#### Steps
-
-1.  Cook mustard seeds until sputter. Add onion, garlic chilli, and
-    ginger. Brown.
-2.  Add tomatoes, tumeric, cumin, salt, curry powder, gamam masla. Heat
-    through.
-3.  Add dal and stock.
-4.  Cook 10 mins on high pressure. Naturally release pressure.
-
-#### Source
-
--   Adapted from: Urvashi Pitre 2020, Pressure Cooker Rice and Dal \|
-    Toor Dal and Rice,
-    <https://twosleevers.com/pressure-cooker-rice-and-dal/>
--   Inspired by: The Student Kitchen (2016), Herron Books
