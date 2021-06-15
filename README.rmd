@@ -17,11 +17,11 @@ output: github_document
 - Chopped tomato (2 cans)
 - Tomato paste (2 tbsp)
 - Beef stock (1 cup-strong)
-- Onion powder
-- Garlic powder
 - Coriander
 - Oregano
 - Basil
+- Miso paste
+- Praprika
 - Butter (100g)
 - Wine*
 
@@ -30,6 +30,9 @@ output: github_document
 1. Add spices and herbs. Add butter and wine. Allow butter to melt.
 1. Pressure cook 20 mins. Release after 5 mins.
 1. Boil off excess fluid.
+
+#### Notes
+- I normally just use an Italian herb blend instead of the fresh herbs now
 
 #### Sources
 - Adapted from: Aunty Louise's recipe

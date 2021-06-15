@@ -18,11 +18,11 @@ stable](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://www.ti
 -   Chopped tomato (2 cans)
 -   Tomato paste (2 tbsp)
 -   Beef stock (1 cup-strong)
--   Onion powder
--   Garlic powder
 -   Coriander
 -   Oregano
 -   Basil
+-   Miso paste
+-   Praprika
 -   Butter (100g)
 -   Wine\*
 
@@ -33,6 +33,11 @@ stable](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://www.ti
 2.  Add spices and herbs. Add butter and wine. Allow butter to melt.
 3.  Pressure cook 20 mins. Release after 5 mins.
 4.  Boil off excess fluid.
+
+#### Notes
+
+-   I normally just use an Italian herb blend instead of the fresh herbs
+    now
 
 #### Sources
 
