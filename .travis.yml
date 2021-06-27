@@ -1,9 +1,0 @@
-language: r
-sudo: false
-script: make cook
-cache: packages
-r_packages:
-  - rmarkdown
-os:
-  - linux
-  - osx

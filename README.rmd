@@ -3,6 +3,9 @@ title: "README"
 output: github_document
 ---
 
+  <!-- badges: start -->
+  [![R build status](https://github.com/ethrya/cookbook/workflows/R-CMD-check/badge.svg)](https://github.com/ethrya/cookbook/actions)
+  <!-- badges: end -->
 
 # Recipies
 ## Pasta
