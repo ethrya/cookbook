@@ -38,7 +38,7 @@ I was concerned about not including butter or cheese. But this was actually fine
 
 ## Red beans and rice
 
-[![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![Lifecycle: questioning](https://img.shields.io/badge/lifecycle-questioning-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 
 ### Ingredients 
 - Garlic
