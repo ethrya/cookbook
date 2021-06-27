@@ -372,7 +372,7 @@ output: github_document
 - Inspired by: https://cooking.nytimes.com/recipes/1015845-pressure-cooker-porcini-risotto
 
 #### Notes
-I was pretty concerned about not including butter or cheese. But this was actually fine and a bit lighter (better?) than other risottos I have made, but still rich enough.
+I was concerned about not including butter or cheese. But this was actually fine and turneed out to be a bit lighter (better?) than other risottos I have made, but still rich enough.
 
 ### Red beans and rice
 
