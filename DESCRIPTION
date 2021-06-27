@@ -1,0 +1,15 @@
+Title: Cookbook
+Version: 1.0.0.9999
+Date: 2021-06-27
+Author: Ethan Ryan
+Maintainer: Ethan Ryan
+Description: Cookbook
+License: Creative Commons Attribution-ShareAlike 4.0 International
+URL: https://github.com/ethrya/cookbook
+Depends:
+    R (>= 2.10)
+Imports:
+    rmarkdown
+Suggests:
+
+RoxygenNote: 5.0.1
