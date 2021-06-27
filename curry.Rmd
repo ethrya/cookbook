@@ -2,6 +2,7 @@
 title: "Curry"
 ---
 
+
 ## Yellow Dal
 [![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 
@@ -64,8 +65,54 @@ title: "Curry"
 ### Steps
 
 1. Fry mustard seeds in oil. Start to brown onions. Once onions start to brown add eggplant. Once brown add garlic, ginger and chilli and cook quickly. Add spices.
-1. Add in tinned tomatoes and herbs. Add soy sauce, miso paste and cocnut milk. Add vegetable or vegan beef stock.
+1. Add in tinned tomatoes and herbs. Add soy sauce, miso paste and coconut milk. Add vegetable or vegan beef stock.
 1. Pressure cook for 20 mins on high pressure. Allow to naturally pressure release.
 
 ### Source
 - Adapted from: https://www.recipetineats.com/eggplant-curry-south-indian/
+
+## Butter Jackfruit (vegan butter chicken)
+
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+
+### Ingredients
+
+- Oil
+- Margarine
+- Cumin **
+- Paprika ***
+- Cardamon *
+- Curry Powder *
+- Cayenne pepper *
+- Coriander ground *
+- Turmeric **
+- Garam massala **
+- Salt
+- Onion
+- Ginger
+- Garlic
+- Chilli
+- Jackfruit (1 0.5L tin)
+- 1 cup vegan chicken stock
+- Soy sauce
+- Sugar (optional)
+- Lemon
+- Coconut cream (200-400 mL)
+
+### Steps
+
+1. Add oil and margarine and allow to melt. Once melted, add spices and stir to combine. Then add onion and cook for a while (~10 mins). Add garlic, ginger and chilli for a couple of minutes.
+1. Add jackfruit and coat in spice mix. Then add stock and soy sauce and allow to boil off fluid, stiring occasionally.
+1. Add lemon, stir and taste. If necessary, add sugar. pressure cook for 10 mins.
+1. Allow to naturally release pressure. Turn on saute mode and allow additional fluid to cook off so that desired consistency is reached. While this is happening, add coconut cream and extra oil to taste.
+
+### Source
+
+- Inspired by: https://www.reddit.com/r/Cooking/comments/axmknw/ultimate_restaurant_quality_butter_chicken/
+- Inspired by: https://plantbasednews.org/veganrecipes/dinner/butter-jackfruit/
+- Inspired by: https://www.goodto.com/recipes/gordon-ramsay-s-butter-chicken
+
+### Notes
+- Other (better?) recipes also use cardamon, cloves, star annise, fengreek leaves and cashews. It might be worth testing these.
+
+This sauce is relatively chunky compared to restaurant butter chickens. To overcome this, I think the tomato can be added before the jackfruit and that sauce blended.
