@@ -1,4 +1,5 @@
 name: "Cookbook"
+output_dir: docs
 navbar:
   title: "Cookbook"
   left:
