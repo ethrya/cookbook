@@ -1,9 +1,12 @@
-README
-================
+<!-- badges: start --> [![R build
+status](https://github.com/ethrya/cookbook/workflows/R-CMD-check/badge.svg)](https://github.com/ethrya/cookbook/actions)
+<!-- badges: end -->
 
-# Recipies
+Recipies
+========
 
-## Pasta
+Pasta
+-----
 
 ### Tofu bolenese
 
@@ -63,7 +66,7 @@ maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://w
 
 1.  Add butter to cooker on sautee. Allow to melt and add eggplant and
     salt. Allow egplant to soften. Once soft add onion and allow to
-    brown. Once brown add garlic for \~1 min. Add tomato cans and beans.
+    brown. Once brown add garlic for ~1 min. Add tomato cans and beans.
 2.  Pressure cook on high pressure for 10 mins.
 3.  Release manually. Add olives and 100 mL of olive oil. Pressure cook
     for another 10 mins.
@@ -143,8 +146,8 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 
 1.  Brown onion and Broccoli until the broccoli becomes soft. If using
     asparagus add this. Add garlic and quickly brown.
-2.  Add in cream and cook until desired consistency reached (\~20 mins).
-    Add a small amount of butter (\~50g).
+2.  Add in cream and cook until desired consistency reached (~20 mins).
+    Add a small amount of butter (~50g).
 3.  Add in pasta and parmesan.
 
 #### Sources
@@ -153,7 +156,8 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
     Heat’s](https://www.saltfatacidheat.com) (Samin Nosrat) *Pasta with
     broccoli and bread crumbs* and *Pasta cacio e pepe*
 
-## Mexican
+Mexican
+-------
 
 ### Tofu burritos
 
@@ -193,7 +197,8 @@ maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://w
 
 #### Sources
 
--   Inspired by: <https://www.wellplated.com/tofu-tacos/>
+-   Inspired by:
+    <a href="https://www.wellplated.com/tofu-tacos/" class="uri">https://www.wellplated.com/tofu-tacos/</a>
 
 ### Chilli
 
@@ -232,12 +237,13 @@ maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://w
 3.  Add tofu, tomato, beer miso, soy sauce, sugarand stock. Stir until
     heated. Add butter and allow to melt.
 4.  Cook on high pressure for 20 minutes. Allow to naturally release
-    pressure \~10 min.
+    pressure ~10 min.
 5.  Tasyte and add spices as required. Add beans and cook for another 10
     mins.
 6.  Naturally release pressure. Brown to remove any extra liquid.
 
-## Curry
+Curry
+-----
 
 ### Yellow Dal
 
@@ -272,9 +278,9 @@ maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://w
 
 #### Source
 
--   Adapted from: Urvashi Pitre 2020, Pressure Cooker Rice and Dal \|
+-   Adapted from: Urvashi Pitre 2020, Pressure Cooker Rice and Dal |
     Toor Dal and Rice,
-    <https://twosleevers.com/pressure-cooker-rice-and-dal/>
+    <a href="https://twosleevers.com/pressure-cooker-rice-and-dal/" class="uri">https://twosleevers.com/pressure-cooker-rice-and-dal/</a>
 -   Inspired by: The Student Kitchen (2016), Herron Books
 
 ### Brinjal (Eggplant) curry
@@ -290,7 +296,7 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 -   Ginger
 -   1 medium eggplant (cut into chunks and salted)
 -   Tinned tomatoes (1 tin)
--   Tomato paste (\~2 Tbsp)
+-   Tomato paste (~2 Tbsp)
 -   Chilli
 -   Soy sauce
 -   Miso paste
@@ -319,9 +325,10 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 #### Source
 
 -   Adapted from:
-    <https://www.recipetineats.com/eggplant-curry-south-indian/>
+    <a href="https://www.recipetineats.com/eggplant-curry-south-indian/" class="uri">https://www.recipetineats.com/eggplant-curry-south-indian/</a>
 
-## Sausage rolls
+Sausage rolls
+-------------
 
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
@@ -404,7 +411,8 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
     together. Add egg and stir thoroughly.
 2.  Put mince onto pastry and roll. Cook in oven at 200C for 25 mins
 
-## Misc
+Misc
+----
 
 ### Vegan Eggplant Risotto
 
@@ -415,7 +423,7 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 
 -   Olive oil
 -   Margarine\*
--   Mushroom (\~250g)
+-   Mushroom (~250g)
 -   Eggplant (salted)
 -   Onion
 -   Garlic
@@ -444,15 +452,15 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 #### Source
 
 -   Inspired by:
-    <https://www.seriouseats.com/pressure-cooker-mushroom-risotto-recipe>
+    <a href="https://www.seriouseats.com/pressure-cooker-mushroom-risotto-recipe" class="uri">https://www.seriouseats.com/pressure-cooker-mushroom-risotto-recipe</a>
 -   Inspired by:
-    <https://cooking.nytimes.com/recipes/1015845-pressure-cooker-porcini-risotto>
+    <a href="https://cooking.nytimes.com/recipes/1015845-pressure-cooker-porcini-risotto" class="uri">https://cooking.nytimes.com/recipes/1015845-pressure-cooker-porcini-risotto</a>
 
 #### Notes
 
-I was pretty concerned about not including butter or cheese. But this
-was actually fine and a bit lighter (better?) than other risottos I have
-made, but still rich enough.
+I was concerned about not including butter or cheese. But this was
+actually fine and turneed out to be a bit lighter (better?) than other
+risottos I have made, but still rich enough.
 
 ### Red beans and rice
 
@@ -483,7 +491,7 @@ maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://w
 #### Source
 
 Adapted from:
-<https://www.foodnetwork.com/recipes/robert-irvine/red-beans-and-rice-recipe-1950779>
+<a href="https://www.foodnetwork.com/recipes/robert-irvine/red-beans-and-rice-recipe-1950779" class="uri">https://www.foodnetwork.com/recipes/robert-irvine/red-beans-and-rice-recipe-1950779</a>
 
 ### Lentil Soup
 
