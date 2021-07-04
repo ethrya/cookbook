@@ -20,4 +20,4 @@ navbar:
       href: http://github.com/ethrya/cookbook
 output:
   html_document:
-    theme: darkly
+    theme: cerulean

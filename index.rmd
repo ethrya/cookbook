@@ -46,7 +46,7 @@ purrr::map_dfr(pages, get_recipies) %>%
   flextable::flextable() %>%
   flextable::autofit() %>%
   flextable::align(align="left", part = "all") %>%
-  flextable::color(color = "white", part = "all")
+  flextable::color(color = "black", part = "all")
 ```
 
 

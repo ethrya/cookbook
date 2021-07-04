@@ -50,7 +50,7 @@ title: "Curry"
 - Chilli
 - Soy sauce
 - Miso paste
-- Coconut milk (50 mL)
+- Coconut cream (50 mL)
 - Vegan beef stock (1/2 cup)
 - Cardamon
 - Pararika
@@ -61,6 +61,8 @@ title: "Curry"
 - Cumin
 - Salt
 - Corriander powder
+- Lemon
+- Sugar (optional)
 
 ### Steps
 
