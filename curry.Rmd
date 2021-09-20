@@ -87,8 +87,12 @@ title: "Curry"
 - Curry Powder *
 - Cayenne pepper *
 - Coriander ground *
+- Cloves
+- feegreek leaves
 - Turmeric **
 - Garam massala **
+- Cinnamon (stick or ground)
+- Star annise
 - Salt
 - Onion
 - Ginger
@@ -97,9 +101,12 @@ title: "Curry"
 - Jackfruit (1 0.5L tin)
 - 1 cup vegan chicken stock
 - Soy sauce
+- Miso paste
 - Sugar (optional)
 - Lemon
 - Coconut cream (200-400 mL)
+
+Note: * s indicates relative amount (* a little, ** some, *** plenty).
 
 ### Steps
 
@@ -115,6 +122,7 @@ title: "Curry"
 - Inspired by: https://www.goodto.com/recipes/gordon-ramsay-s-butter-chicken
 
 ### Notes
-- Other (better?) recipes also use cardamon, cloves, star annise, fengreek leaves and cashews. It might be worth testing these.
+- Other (better?) recipes also use cashews. It might be worth testing these.
+- Can replace jackfruit with tofu.
 
 This sauce is relatively chunky compared to restaurant butter chickens. To overcome this, I think the tomato can be added before the jackfruit and that sauce blended.
