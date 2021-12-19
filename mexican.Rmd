@@ -78,3 +78,33 @@ title: "Mexican"
 1. Cook on high pressure for 20 minutes. Allow to naturally release pressure ~10 min. 
 1. Tasyte and add spices as required. Add beans and cook for another 10 mins.
 1. Naturally release pressure. Brown to remove any extra liquid.
+
+## Mexican-style rice
+
+[![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+
+### Ingredients
+
+- Onion
+- Garlic
+- Chilli
+- Peas + corn
+- Oregano
+- Cumin
+- Cinnamon
+- Parprica
+- Salt
+- Pepper
+- Tomato paste
+- Tomato
+- Lemon
+- Beans (red and kin)
+- Rice (1 cup)
+- Chicken stock (1.5 cups)
+
+### Steps
+
+1. Brown onion. Add garlic and chilli. Then add peas + corn.
+1. Add spices and stir until aromatic.
+1. Add tomato, tomato paste, lemon, beans, rice and chicken stock. Stir to combine.
+1. Pressure cook for 4 minutes.
