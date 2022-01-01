@@ -50,7 +50,7 @@ title: "Pastry"
 1. Add the onion/eggplant mixture and stir to combine.
 
 ### Bean and tofu base mix
-[![Lifecycle: questioning](https://img.shields.io/badge/lifecycle-questioning-blue.svg)](https://www.tidyverse.org/lifecycle/#questioning)
+[![Lifecycle: deprecated](https://img.shields.io/badge/lifecycle-deprecated-orange.svg)](https://www.tidyverse.org/lifecycle/#deprecated)
 
 #### Ingredients
 - beans (2x cans)
@@ -65,7 +65,7 @@ title: "Pastry"
 
 ### Bean and eggplant base mix
 
-[![Lifecycle: questioning](https://img.shields.io/badge/lifecycle-questioning-blue.svg)](https://www.tidyverse.org/lifecycle/#questioning)
+[![Lifecycle: deprecated](https://img.shields.io/badge/lifecycle-deprecated-orange.svg)](https://www.tidyverse.org/lifecycle/#deprecated)
 
 #### Ingredients
 - eggplant
