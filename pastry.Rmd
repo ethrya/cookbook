@@ -31,7 +31,27 @@ title: "Pastry"
 1. Use one portion of base mix. Add herbs, spices and bread and mix together. Add oil and stir thoroughly.
 1. Put mince onto pastry and roll. Top with almond milk and sesame seeds Cook in oven at 200C for 25 mins (time will depend on oven heat and roll size).
 
+### Bean, tofu and egplant base mix
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+
+#### Ingredients
+- beans (2x cans; a combination of red + black are good)
+- Small can of chickpeas
+- tofu (200g)
+- Eggplant
+- onion
+- garlic
+- oil
+
+#### Steps
+1. Finely slice eggplant, rub with salt and let sit for around 20 mins.
+1. Chop onion into small pieces and cook until translucent. Chop eggplant into small pieces and add. Once eggplant is soft, add  minced garlic.
+1. Separately, mince beans and chickpeas with a fork until they forms a soft paste, with some chunks remaining. Mince tofu with a fork and add. Finely slice onion and garlic.
+1. Add the onion/eggplant mixture and stir to combine.
+
 ### Bean and tofu base mix
+[![Lifecycle: questioning](https://img.shields.io/badge/lifecycle-questioning-blue.svg)](https://www.tidyverse.org/lifecycle/#questioning)
+
 #### Ingredients
 - beans (2x cans)
 - tofu (200g)
@@ -44,6 +64,9 @@ title: "Pastry"
 1. Stir ingredients together.
 
 ### Bean and eggplant base mix
+
+[![Lifecycle: questioning](https://img.shields.io/badge/lifecycle-questioning-blue.svg)](https://www.tidyverse.org/lifecycle/#questioning)
+
 #### Ingredients
 - eggplant
 - onion
@@ -59,6 +82,8 @@ title: "Pastry"
 
 
 ### Mushroom and eggplant
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+
 #### Ingredients
 - Mushrooms (200g)
 - Eggplant
