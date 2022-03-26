@@ -34,11 +34,11 @@ Key: > a little (~1/2 tsp), >> some (1 tsp), >>> pleanty (~3 tsp)
 1. Add eggplant and $\approx 1$ cup water, allow to soften. Then add tofu and cook until spice begins to absorb.
 1. Separately, mince beans (e.g. with a fork)  until forms a smoothish paste, with some chunks remaining. 
 1. Stir the beans into the tofu/eggplant mix. Add bread.
-1. Put mix into pastry and bake on $180^oC$ until brown
+1. Put mix into pastry and bake on $180^oC$ until brown.
 
 
 ### Sausage Rolls
-[![Lifecycle: deprecated](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![Lifecycle: deprecated](https://img.shields.io/badge/lifecycle-deprecated-orange.svg)](https://www.tidyverse.org/lifecycle/#deprecated)
 
 #### Ingredients
 - Base mix (see below)
@@ -61,29 +61,6 @@ Key: > a little (~1/2 tsp), >> some (1 tsp), >>> pleanty (~3 tsp)
 #### Steps
 1. Use one portion of base mix. Add herbs, spices and bread and mix together. Add oil and stir thoroughly.
 1. Put mince onto pastry and roll. Top with almond milk and sesame seeds Cook in oven at 200C for 25 mins (time will depend on oven heat and roll size).
-
-### Bean, tofu and egplant base mix
-[![Lifecycle: deprecated](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
-
-#### Ingredients
-- beans (2x cans; a combination of red + black are good)
-- Small can of chickpeas
-- tofu (200g)
-- Eggplant
-- onion
-- garlic
-- oil
-
-#### Steps
-1. Finely slice eggplant, rub with salt and let sit for around 20 mins.
-1. Chop onion into small pieces and cook until translucent. Chop eggplant into small pieces and add. Once eggplant is soft, add  minced garlic.
-1. Separately, mince beans and chickpeas with a fork until they forms a soft paste, with some chunks remaining. Mince tofu with a fork and add. Finely slice onion and garlic.
-1. Add the onion/eggplant mixture and stir to combine.
-
-### Bean and tofu base mix
-[![Lifecycle: deprecated](https://img.shields.io/badge/lifecycle-deprecated-orange.svg)](https://www.tidyverse.org/lifecycle/#deprecated)
-
-v
 
 ### Bean and eggplant base mix
 

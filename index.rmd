@@ -26,7 +26,7 @@ The recipes contained in this website and theare:
 get_recipies <- function(file_name){
   recipies <- file_name %>%
   readLines(warn = F) %>%
-  str_extract("^## [A-z \\(\\)]+") %>%
+  str_extract("^## [A-z \\(\\)\\,]+") %>%
   str_extract("[A-z].+") %>%
   .[!is.na(.)]
 
