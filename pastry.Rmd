@@ -2,12 +2,43 @@
 title: "Pastry"
 ---
 
-## Sausage roll
+## Bean, tofu and eggplant rolls
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+
+#### Ingredients
+- beans (3x cans)
+- tofu (200g)
+- Eggplant, finely chopped and salted
+- Onion
+- garlic
+- chilli
+- garlic
+- ginger
+- Paprika >>>
+- Cumin >>
+- Cinnamon >
+- Nutmeg >
+- Cardamon (ground) >
+- All spice >
+- Salt >>
+- Pepper >>
+- Corriander (ground) >>
+- Soy sauce
+- bread 2 slices torn into small pieces
+- Puff pastry
+
+Key: > a little (~1/2 tsp), >> some (1 tsp), >>> pleanty (~3 tsp)
+
+#### Steps
+1. Brown finely chopped onion. Then add garlic, chilli and ginger until aromatic. Add spices and soy sauce and wait for smell to change.
+1. Add eggplant and $\approx 1$ cup water, allow to soften. Then add tofu and cook until spice begins to absorb.
+1. Separately, mince beans (e.g. with a fork)  until forms a smoothish paste, with some chunks remaining. 
+1. Stir the beans into the tofu/eggplant mix. Add bread.
+1. Put mix into pastry and bake on $180^oC$ until brown
 
 
 ### Sausage Rolls
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![Lifecycle: deprecated](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 
 #### Ingredients
 - Base mix (see below)
@@ -32,7 +63,7 @@ title: "Pastry"
 1. Put mince onto pastry and roll. Top with almond milk and sesame seeds Cook in oven at 200C for 25 mins (time will depend on oven heat and roll size).
 
 ### Bean, tofu and egplant base mix
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![Lifecycle: deprecated](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 
 #### Ingredients
 - beans (2x cans; a combination of red + black are good)
@@ -52,16 +83,7 @@ title: "Pastry"
 ### Bean and tofu base mix
 [![Lifecycle: deprecated](https://img.shields.io/badge/lifecycle-deprecated-orange.svg)](https://www.tidyverse.org/lifecycle/#deprecated)
 
-#### Ingredients
-- beans (2x cans)
-- tofu (200g)
-- onion
-- garlic
-- oil
-
-#### Steps
-1. Mince beans with a fork or blender until forms a soft paste, with some chunks remaining. Mince tofu with a fork. Finely slice onion and garlic.
-1. Stir ingredients together.
+v
 
 ### Bean and eggplant base mix
 
