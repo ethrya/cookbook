@@ -13,7 +13,7 @@
 
 <title>Pasta</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -172,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -181,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -234,7 +235,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -285,7 +286,9 @@ $(document).ready(function () {
 
 <div id="tofu-bolenese" class="section level2">
 <h2>Tofu bolenese</h2>
-<p><a href="https://www.tidyverse.org/lifecycle/#stable"><img src="https://img.shields.io/badge/lifecycle-stable-green.svg" alt="Lifecycle: stable" /></a></p>
+<p><a href="https://www.tidyverse.org/lifecycle/#stable"><img
+src="https://img.shields.io/badge/lifecycle-stable-green.svg"
+alt="Lifecycle: stable" /></a></p>
 <div id="ingredients" class="section level3">
 <h3>Ingredients</h3>
 <ul>
@@ -307,8 +310,10 @@ $(document).ready(function () {
 <div id="steps" class="section level3">
 <h3>Steps</h3>
 <ol style="list-style-type: decimal">
-<li>Brown onion. Add garlic. Add tofu and begin to brown. Add tomato. Stir and add stock.</li>
-<li>Add spices and herbs. Add butter and wine. Allow butter to melt.</li>
+<li>Brown onion. Add garlic. Add tofu and begin to brown. Add tomato.
+Stir and add stock.</li>
+<li>Add spices and herbs. Add butter and wine. Allow butter to
+melt.</li>
 <li>Pressure cook 20 mins. Release after 5 mins.</li>
 <li>Boil off excess fluid.</li>
 </ol>
@@ -316,7 +321,8 @@ $(document).ready(function () {
 <div id="notes" class="section level3">
 <h3>Notes</h3>
 <ul>
-<li>I normally just use an Italian herb blend instead of the fresh herbs now</li>
+<li>I normally just use an Italian herb blend instead of the fresh herbs
+now</li>
 </ul>
 </div>
 <div id="sources" class="section level3">
@@ -328,7 +334,9 @@ $(document).ready(function () {
 </div>
 <div id="eggplant-and-black-bean-pasta" class="section level2">
 <h2>Eggplant and black bean pasta</h2>
-<p><a href="https://www.tidyverse.org/lifecycle/#maturing"><img src="https://img.shields.io/badge/lifecycle-maturing-orange.svg" alt="Lifecycle: maturing" /></a></p>
+<p><a href="https://www.tidyverse.org/lifecycle/#stable"><img
+src="https://img.shields.io/badge/lifecycle-stable-green.svg"
+alt="Lifecycle: stable" /></a></p>
 <div id="ingredients-1" class="section level3">
 <h3>Ingredients</h3>
 <ul>
@@ -339,29 +347,43 @@ $(document).ready(function () {
 <li>Garlic</li>
 <li>Tomato cans (2x 400g)</li>
 <li>Black beans (small can)</li>
-<li>olives</li>
+<li>White wine</li>
+<li>Olives</li>
 </ul>
 </div>
 <div id="steps-1" class="section level3">
 <h3>Steps</h3>
 <ol style="list-style-type: decimal">
-<li>Add butter to cooker on sautee. Allow to melt and add eggplant and salt. Allow egplant to soften. Once soft add onion and allow to brown. Once brown add garlic for ~1 min. Add tomato cans and beans.</li>
+<li>Add butter to cooker on sautee. Allow to melt and add eggplant and
+salt. Allow egplant to soften. Once soft add onion and allow to brown.
+Once brown add garlic for ~1 min. Add tomato cans and beans.</li>
 <li>Pressure cook on high pressure for 10 mins.</li>
-<li>Release manually. Add olives and 100 mL of olive oil. Pressure cook for another 10 mins.</li>
+<li>Release manually. Add olives and 100 mL of olive oil. Pressure cook
+for another 10 mins.</li>
 <li>Cook pasta while allowing to naturally release pressure.</li>
 </ol>
 </div>
 <div id="sources-1" class="section level3">
 <h3>Sources</h3>
 <ul>
-<li>Adapted from: <a href="https://www.saltfatacidheat.com">Salt Fat Acid Heat’s</a> (Samin Nosrat) <em>Pasta alla Pomarola</em> (p. 292)</li>
-<li>Adapted from: Delicious Recipies for you Pressure Cooker and Slow Cooker’s (Women’s weekly) <em>Eggplant, olive and Pine Nut Pasta Sauce</em></li>
+<li>Adapted from: <a href="https://www.saltfatacidheat.com">Salt Fat
+Acid Heat’s</a> (Samin Nosrat) <em>Pasta alla Pomarola</em>
+(p. 292)</li>
+<li>Adapted from: Delicious Recipies for you Pressure Cooker and Slow
+Cooker’s (Women’s weekly) <em>Eggplant, olive and Pine Nut Pasta
+Sauce</em></li>
 </ul>
+</div>
+<div id="notes-1" class="section level3">
+<h3>Notes</h3>
+<p>Replace butter with olive oil for a vegan version.</p>
 </div>
 </div>
 <div id="lentil-ragu" class="section level2">
 <h2>Lentil ragu</h2>
-<p><a href="https://www.tidyverse.org/lifecycle/#experimental"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Lifecycle: experimental" /></a></p>
+<p><a href="https://www.tidyverse.org/lifecycle/#experimental"><img
+src="https://img.shields.io/badge/lifecycle-experimental-orange.svg"
+alt="Lifecycle: experimental" /></a></p>
 <div id="ingredients-2" class="section level3">
 <h3>Ingredients</h3>
 <ul>
@@ -390,23 +412,36 @@ $(document).ready(function () {
 <div id="steps-2" class="section level3">
 <h3>Steps</h3>
 <ol style="list-style-type: decimal">
-<li>In a food processor, finely chop onion and garlic, then mushrooms, then carrot, then tomatoes.</li>
-<li>Brown onion and garlic in oil. Then add butter, some salt and mushrooms. Brown and wait for smell to change. Add carrot and tomatoes and wait for fluid to largely boil off.</li>
-<li>Add tomato paste, miso paste, soy sauce, herbs/spices, wine, 1 cup of beef stock and milk. Cook until thickened has largely boiled off.</li>
-<li>Pressure cook for 15 Mins on high. Release pressure after 5 mins.</li>
-<li>Add remaining beef stock, lentils and barley and cook for a further 25 mins. Allow pressure to largely naturally release (around 15 mins).</li>
+<li>In a food processor, finely chop onion and garlic, then mushrooms,
+then carrot, then tomatoes.</li>
+<li>Brown onion and garlic in oil. Then add butter, some salt and
+mushrooms. Brown and wait for smell to change. Add carrot and tomatoes
+and wait for fluid to largely boil off.</li>
+<li>Add tomato paste, miso paste, soy sauce, herbs/spices, wine, 1 cup
+of beef stock and milk. Cook until thickened has largely boiled
+off.</li>
+<li>Pressure cook for 15 Mins on high. Release pressure after 5
+mins.</li>
+<li>Add remaining beef stock, lentils and barley and cook for a further
+25 mins. Allow pressure to largely naturally release (around 15
+mins).</li>
 </ol>
 </div>
 <div id="sources-2" class="section level3">
 <h3>Sources</h3>
 <ul>
-<li>Inspired by: <em>The ultimate traybake ragu</em>, Y. Ottolenghi and I. Belfrage 2020, Flavour, Ebury Press. <em>This recipe is clearly a traybake ragu and is clearly very different. The ingredients are very similar but the method is pretty much completely different.</em></li>
+<li>Inspired by: <em>The ultimate traybake ragu</em>, Y. Ottolenghi and
+I. Belfrage 2020, Flavour, Ebury Press. <em>This recipe is clearly a
+traybake ragu and is clearly very different. The ingredients are very
+similar but the method is pretty much completely different.</em></li>
 </ul>
 </div>
 </div>
 <div id="brocolli-cream-pasta" class="section level2">
 <h2>Brocolli cream pasta</h2>
-<p><a href="https://www.tidyverse.org/lifecycle/#experimental"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Lifecycle: experimental" /></a></p>
+<p><a href="https://www.tidyverse.org/lifecycle/#experimental"><img
+src="https://img.shields.io/badge/lifecycle-experimental-orange.svg"
+alt="Lifecycle: experimental" /></a></p>
 <div id="ingredients-3" class="section level3">
 <h3>Ingredients</h3>
 <ul>
@@ -422,15 +457,19 @@ $(document).ready(function () {
 <div id="steps-3" class="section level3">
 <h3>Steps</h3>
 <ol style="list-style-type: decimal">
-<li>Brown onion and Broccoli until the broccoli becomes soft. If using asparagus add this. Add garlic and quickly brown.</li>
-<li>Add in cream and cook until desired consistency reached (~20 mins). Add a small amount of butter (~50g).</li>
+<li>Brown onion and Broccoli until the broccoli becomes soft. If using
+asparagus add this. Add garlic and quickly brown.</li>
+<li>Add in cream and cook until desired consistency reached (~20 mins).
+Add a small amount of butter (~50g).</li>
 <li>Add in pasta and parmesan.</li>
 </ol>
 </div>
 <div id="sources-3" class="section level3">
 <h3>Sources</h3>
 <ul>
-<li>Adapted from: <a href="https://www.saltfatacidheat.com">Salt Fat Acid Heat’s</a> (Samin Nosrat) <em>Pasta with broccoli and bread crumbs</em> and <em>Pasta cacio e pepe</em></li>
+<li>Adapted from: <a href="https://www.saltfatacidheat.com">Salt Fat
+Acid Heat’s</a> (Samin Nosrat) <em>Pasta with broccoli and bread
+crumbs</em> and <em>Pasta cacio e pepe</em></li>
 </ul>
 </div>
 </div>

@@ -13,7 +13,7 @@
 
 <title>Curry</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -172,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -181,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -234,7 +235,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -285,7 +286,9 @@ $(document).ready(function () {
 
 <div id="yellow-dal" class="section level2">
 <h2>Yellow Dal</h2>
-<p><a href="https://www.tidyverse.org/lifecycle/#maturing"><img src="https://img.shields.io/badge/lifecycle-maturing-orange.svg" alt="Lifecycle: maturing" /></a></p>
+<p><a href="https://www.tidyverse.org/lifecycle/#maturing"><img
+src="https://img.shields.io/badge/lifecycle-maturing-orange.svg"
+alt="Lifecycle: maturing" /></a></p>
 <div id="ingredients" class="section level3">
 <h3>Ingredients</h3>
 <ul>
@@ -308,8 +311,10 @@ $(document).ready(function () {
 <div id="steps" class="section level3">
 <h3>Steps</h3>
 <ol style="list-style-type: decimal">
-<li>Cook mustard seeds until sputter. Add onion, garlic chilli, and ginger. Brown.</li>
-<li>Add tomatoes, tumeric, cumin, salt, curry powder, gamam masla. Heat through.</li>
+<li>Cook mustard seeds until sputter. Add onion, garlic chilli, and
+ginger. Brown.</li>
+<li>Add tomatoes, tumeric, cumin, salt, curry powder, gamam masla. Heat
+through.</li>
 <li>Add dal and stock.</li>
 <li>Cook 10 mins on high pressure. Naturally release pressure.</li>
 </ol>
@@ -317,14 +322,19 @@ $(document).ready(function () {
 <div id="source" class="section level3">
 <h3>Source</h3>
 <ul>
-<li>Adapted from: Urvashi Pitre 2020, Pressure Cooker Rice and Dal | Toor Dal and Rice, <a href="https://twosleevers.com/pressure-cooker-rice-and-dal/" class="uri">https://twosleevers.com/pressure-cooker-rice-and-dal/</a></li>
+<li>Adapted from: Urvashi Pitre 2020, Pressure Cooker Rice and Dal |
+Toor Dal and Rice, <a
+href="https://twosleevers.com/pressure-cooker-rice-and-dal/"
+class="uri">https://twosleevers.com/pressure-cooker-rice-and-dal/</a></li>
 <li>Inspired by: The Student Kitchen (2016), Herron Books</li>
 </ul>
 </div>
 </div>
 <div id="brinjal-eggplant-curry" class="section level2">
 <h2>Brinjal (Eggplant) curry</h2>
-<p><a href="https://www.tidyverse.org/lifecycle/#experimental"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Lifecycle: experimental" /></a></p>
+<p><a href="https://www.tidyverse.org/lifecycle/#experimental"><img
+src="https://img.shields.io/badge/lifecycle-experimental-orange.svg"
+alt="Lifecycle: experimental" /></a></p>
 <div id="ingredients-1" class="section level3">
 <h3>Ingredients</h3>
 <ul>
@@ -356,21 +366,29 @@ $(document).ready(function () {
 <div id="steps-1" class="section level3">
 <h3>Steps</h3>
 <ol style="list-style-type: decimal">
-<li>Fry mustard seeds in oil. Start to brown onions. Once onions start to brown add eggplant. Once brown add garlic, ginger and chilli and cook quickly. Add spices.</li>
-<li>Add in tinned tomatoes and herbs. Add soy sauce, miso paste and coconut milk. Add vegetable or vegan beef stock.</li>
-<li>Pressure cook for 20 mins on high pressure. Allow to naturally pressure release.</li>
+<li>Fry mustard seeds in oil. Start to brown onions. Once onions start
+to brown add eggplant. Once brown add garlic, ginger and chilli and cook
+quickly. Add spices.</li>
+<li>Add in tinned tomatoes and herbs. Add soy sauce, miso paste and
+coconut milk. Add vegetable or vegan beef stock.</li>
+<li>Pressure cook for 20 mins on high pressure. Allow to naturally
+pressure release.</li>
 </ol>
 </div>
 <div id="source-1" class="section level3">
 <h3>Source</h3>
 <ul>
-<li>Adapted from: <a href="https://www.recipetineats.com/eggplant-curry-south-indian/" class="uri">https://www.recipetineats.com/eggplant-curry-south-indian/</a></li>
+<li>Adapted from: <a
+href="https://www.recipetineats.com/eggplant-curry-south-indian/"
+class="uri">https://www.recipetineats.com/eggplant-curry-south-indian/</a></li>
 </ul>
 </div>
 </div>
 <div id="butter-jackfruit-vegan-butter-chicken" class="section level2">
 <h2>Butter Jackfruit (vegan butter chicken)</h2>
-<p><a href="https://www.tidyverse.org/lifecycle/#experimental"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Lifecycle: experimental" /></a></p>
+<p><a href="https://www.tidyverse.org/lifecycle/#experimental"><img
+src="https://img.shields.io/badge/lifecycle-experimental-orange.svg"
+alt="Lifecycle: experimental" /></a></p>
 <div id="ingredients-2" class="section level3">
 <h3>Ingredients</h3>
 <ul>
@@ -401,32 +419,91 @@ $(document).ready(function () {
 <li>Lemon</li>
 <li>Coconut cream (200-400 mL)</li>
 </ul>
-<p>Note: * s indicates relative amount (* a little, ** some, *** plenty).</p>
+<p>Note: * s indicates relative amount (* a little, ** some, ***
+plenty).</p>
 </div>
 <div id="steps-2" class="section level3">
 <h3>Steps</h3>
 <ol style="list-style-type: decimal">
-<li>Add oil and margarine and allow to melt. Once melted, add spices and stir to combine. Then add onion and cook for a while (~10 mins). Add garlic, ginger and chilli for a couple of minutes.</li>
-<li>Add jackfruit and coat in spice mix. Then add stock and soy sauce and allow to boil off fluid, stiring occasionally.</li>
-<li>Add lemon, stir and taste. If necessary, add sugar. pressure cook for 10 mins.</li>
-<li>Allow to naturally release pressure. Turn on saute mode and allow additional fluid to cook off so that desired consistency is reached. While this is happening, add coconut cream and extra oil to taste.</li>
+<li>Add oil and margarine and allow to melt. Once melted, add spices and
+stir to combine. Then add onion and cook for a while (~10 mins). Add
+garlic, ginger and chilli for a couple of minutes.</li>
+<li>Add jackfruit and coat in spice mix. Then add stock and soy sauce
+and allow to boil off fluid, stiring occasionally.</li>
+<li>Add lemon, stir and taste. If necessary, add sugar. pressure cook
+for 10 mins.</li>
+<li>Allow to naturally release pressure. Turn on saute mode and allow
+additional fluid to cook off so that desired consistency is reached.
+While this is happening, add coconut cream and extra oil to taste.</li>
 </ol>
 </div>
 <div id="source-2" class="section level3">
 <h3>Source</h3>
 <ul>
-<li>Inspired by: <a href="https://www.reddit.com/r/Cooking/comments/axmknw/ultimate_restaurant_quality_butter_chicken/" class="uri">https://www.reddit.com/r/Cooking/comments/axmknw/ultimate_restaurant_quality_butter_chicken/</a></li>
-<li>Inspired by: <a href="https://plantbasednews.org/veganrecipes/dinner/butter-jackfruit/" class="uri">https://plantbasednews.org/veganrecipes/dinner/butter-jackfruit/</a></li>
-<li>Inspired by: <a href="https://www.goodto.com/recipes/gordon-ramsay-s-butter-chicken" class="uri">https://www.goodto.com/recipes/gordon-ramsay-s-butter-chicken</a></li>
+<li>Inspired by: <a
+href="https://www.reddit.com/r/Cooking/comments/axmknw/ultimate_restaurant_quality_butter_chicken/"
+class="uri">https://www.reddit.com/r/Cooking/comments/axmknw/ultimate_restaurant_quality_butter_chicken/</a></li>
+<li>Inspired by: <a
+href="https://plantbasednews.org/veganrecipes/dinner/butter-jackfruit/"
+class="uri">https://plantbasednews.org/veganrecipes/dinner/butter-jackfruit/</a></li>
+<li>Inspired by: <a
+href="https://www.goodto.com/recipes/gordon-ramsay-s-butter-chicken"
+class="uri">https://www.goodto.com/recipes/gordon-ramsay-s-butter-chicken</a></li>
 </ul>
 </div>
 <div id="notes" class="section level3">
 <h3>Notes</h3>
 <ul>
-<li>Other (better?) recipes also use cashews. It might be worth testing these.</li>
+<li>Other (better?) recipes also use cashews. It might be worth testing
+these.</li>
 <li>Can replace jackfruit with tofu.</li>
 </ul>
-<p>This sauce is relatively chunky compared to restaurant butter chickens. To overcome this, I think the tomato can be added before the jackfruit and that sauce blended.</p>
+<p>This sauce is relatively chunky compared to restaurant butter
+chickens. To overcome this, I think the tomato can be added before the
+jackfruit and that sauce blended.</p>
+</div>
+</div>
+<div id="ethiopian-bean-curry" class="section level2">
+<h2>Ethiopian bean curry</h2>
+<p><a href="https://www.tidyverse.org/lifecycle/#experimental"><img
+src="https://img.shields.io/badge/lifecycle-experimental-orange.svg"
+alt="Lifecycle: experimental" /></a></p>
+<div id="ingredients-3" class="section level3">
+<h3>Ingredients</h3>
+<ul>
+<li>Oil</li>
+<li>Onion</li>
+<li>Ginger</li>
+<li>Chili</li>
+<li>Garlic</li>
+<li>Cumin</li>
+<li>Praprica</li>
+<li>Cardamon</li>
+<li>Clove</li>
+<li>Ground coriander seeds</li>
+<li>Curry powder</li>
+<li>Tumeric</li>
+<li>Cinnamon</li>
+<li>Stock</li>
+<li>Salt</li>
+<li>Diced tomatoes</li>
+<li>Red kidney beans</li>
+<li>Black beans</li>
+<li>Lemon</li>
+</ul>
+</div>
+<div id="steps-3" class="section level3">
+<h3>Steps</h3>
+<ol style="list-style-type: decimal">
+<li>Brown onions. Add ginger and chilli and brown. Add garlic and
+brown.</li>
+<li>Add spices and some stock</li>
+<li>Add tomatoes, beans and lemon. Add additional oil, as required.</li>
+</ol>
+</div>
+<div id="notes-1" class="section level3">
+<h3>Notes</h3>
+<p>Repacing the lemon with wine may add</p>
 </div>
 </div>
 

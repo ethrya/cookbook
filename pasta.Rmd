@@ -35,7 +35,7 @@ title: "Pasta"
 
 ## Eggplant and black bean pasta
 
-[![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://www.tidyverse.org/lifecycle/#stable)
 
 ### Ingredients
 
@@ -46,7 +46,8 @@ title: "Pasta"
 - Garlic
 - Tomato cans (2x 400g)
 - Black beans (small can)
-- olives
+- White wine
+- Olives
 
 ### Steps
 
@@ -58,6 +59,10 @@ title: "Pasta"
 ### Sources
 - Adapted from: [Salt Fat Acid Heat's](https://www.saltfatacidheat.com) (Samin Nosrat) *Pasta alla Pomarola* (p. 292)
 - Adapted from: Delicious Recipies for you Pressure Cooker and Slow Cooker's (Women's weekly) *Eggplant, olive and Pine Nut Pasta Sauce*
+
+### Notes
+
+Replace butter with olive oil for a vegan version.
 
 ## Lentil ragu
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
