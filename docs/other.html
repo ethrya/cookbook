@@ -13,7 +13,7 @@
 
 <title>Other</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -172,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -181,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -234,7 +235,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -285,7 +286,9 @@ $(document).ready(function () {
 
 <div id="vegan-eggplant-risotto" class="section level2">
 <h2>Vegan Eggplant Risotto</h2>
-<p><a href="https://www.tidyverse.org/lifecycle/#experimental"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Lifecycle: experimental" /></a></p>
+<p><a href="https://www.tidyverse.org/lifecycle/#experimental"><img
+src="https://img.shields.io/badge/lifecycle-experimental-orange.svg"
+alt="Lifecycle: experimental" /></a></p>
 <div id="ingredients" class="section level3">
 <h3>Ingredients</h3>
 <ul>
@@ -308,27 +311,41 @@ $(document).ready(function () {
 <div id="steps" class="section level3">
 <h3>Steps</h3>
 <ol style="list-style-type: decimal">
-<li>Cook mushrooms in oil and/or margarine and salt until it begins to soften. Add eggplant and allow this to soften. Then add onion. Then make space in the pan, add more oil and quickly cook garlic in this.</li>
-<li>Add in rice and allow to toast. While cooking, add in pepper, italian herbs, miso paste and soy sauce.</li>
-<li>Add in wine and allow to partially cook off. While cooking off, add peas and olives. Once cooked off add stock.</li>
-<li>Cook on low pressure for 5 mins. Once finished, forcibly release pressure. Stir and then set to brown until remaining liquid boils off, while stiring regularly. A small amount of liquid can remain.</li>
+<li>Cook mushrooms in oil and/or margarine and salt until it begins to
+soften. Add eggplant and allow this to soften. Then add onion. Then make
+space in the pan, add more oil and quickly cook garlic in this.</li>
+<li>Add in rice and allow to toast. While cooking, add in pepper,
+italian herbs, miso paste and soy sauce.</li>
+<li>Add in wine and allow to partially cook off. While cooking off, add
+peas and olives. Once cooked off add stock.</li>
+<li>Cook on low pressure for 5 mins. Once finished, forcibly release
+pressure. Stir and then set to brown until remaining liquid boils off,
+while stiring regularly. A small amount of liquid can remain.</li>
 </ol>
 </div>
 <div id="source" class="section level3">
 <h3>Source</h3>
 <ul>
-<li>Inspired by: <a href="https://www.seriouseats.com/pressure-cooker-mushroom-risotto-recipe" class="uri">https://www.seriouseats.com/pressure-cooker-mushroom-risotto-recipe</a></li>
-<li>Inspired by: <a href="https://cooking.nytimes.com/recipes/1015845-pressure-cooker-porcini-risotto" class="uri">https://cooking.nytimes.com/recipes/1015845-pressure-cooker-porcini-risotto</a></li>
+<li>Inspired by: <a
+href="https://www.seriouseats.com/pressure-cooker-mushroom-risotto-recipe"
+class="uri">https://www.seriouseats.com/pressure-cooker-mushroom-risotto-recipe</a></li>
+<li>Inspired by: <a
+href="https://cooking.nytimes.com/recipes/1015845-pressure-cooker-porcini-risotto"
+class="uri">https://cooking.nytimes.com/recipes/1015845-pressure-cooker-porcini-risotto</a></li>
 </ul>
 </div>
 <div id="notes" class="section level3">
 <h3>Notes</h3>
-<p>I was concerned about not including butter or cheese. But this was actually fine and turneed out to be a bit lighter (better?) than other risottos I have made, but still rich enough.</p>
+<p>I was concerned about not including butter or cheese. But this was
+actually fine and turneed out to be a bit lighter (better?) than other
+risottos I have made, but still rich enough.</p>
 </div>
 </div>
 <div id="red-beans-and-rice" class="section level2">
 <h2>Red beans and rice</h2>
-<p><a href="https://www.tidyverse.org/lifecycle/#maturing"><img src="https://img.shields.io/badge/lifecycle-questioning-blue.svg" alt="Lifecycle: questioning" /></a></p>
+<p><a href="https://www.tidyverse.org/lifecycle/#maturing"><img
+src="https://img.shields.io/badge/lifecycle-questioning-blue.svg"
+alt="Lifecycle: questioning" /></a></p>
 <div id="ingredients-1" class="section level3">
 <h3>Ingredients</h3>
 <ul>
@@ -348,19 +365,25 @@ $(document).ready(function () {
 <div id="steps-1" class="section level3">
 <h3>Steps</h3>
 <ol style="list-style-type: decimal">
-<li>Brown onion and garlic. Add celery and capsicum. Cook until tender.</li>
+<li>Brown onion and garlic. Add celery and capsicum. Cook until
+tender.</li>
 <li>Add kidney beans and spices.</li>
-<li>Cook 12 mins on rice setting (low pressure) (tbc). Release pressure naturally.</li>
+<li>Cook 12 mins on rice setting (low pressure) (tbc). Release pressure
+naturally.</li>
 </ol>
 </div>
 <div id="source-1" class="section level3">
 <h3>Source</h3>
-<p>Adapted from: <a href="https://www.foodnetwork.com/recipes/robert-irvine/red-beans-and-rice-recipe-1950779" class="uri">https://www.foodnetwork.com/recipes/robert-irvine/red-beans-and-rice-recipe-1950779</a></p>
+<p>Adapted from: <a
+href="https://www.foodnetwork.com/recipes/robert-irvine/red-beans-and-rice-recipe-1950779"
+class="uri">https://www.foodnetwork.com/recipes/robert-irvine/red-beans-and-rice-recipe-1950779</a></p>
 </div>
 </div>
 <div id="lentil-soup" class="section level2">
 <h2>Lentil Soup</h2>
-<p><a href="https://www.tidyverse.org/lifecycle/#maturing"><img src="https://img.shields.io/badge/lifecycle-maturing-orange.svg" alt="Lifecycle: maturing" /></a></p>
+<p><a href="https://www.tidyverse.org/lifecycle/#maturing"><img
+src="https://img.shields.io/badge/lifecycle-maturing-orange.svg"
+alt="Lifecycle: maturing" /></a></p>
 <div id="ingredients-2" class="section level3">
 <h3>Ingredients</h3>
 <ul>
@@ -381,8 +404,10 @@ $(document).ready(function () {
 <div id="steps-2" class="section level3">
 <h3>Steps</h3>
 <ol style="list-style-type: decimal">
-<li>Heat butter and oil. Add onion celery and carrot. Cook until onion transparent</li>
-<li>Add lentils + tomatoes, water stock cubes. Cover and bring to boil.</li>
+<li>Heat butter and oil. Add onion celery and carrot. Cook until onion
+transparent</li>
+<li>Add lentils + tomatoes, water stock cubes. Cover and bring to
+boil.</li>
 <li>Simmer 1.5h until lentils ready.</li>
 </ol>
 </div>

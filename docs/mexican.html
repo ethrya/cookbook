@@ -13,7 +13,7 @@
 
 <title>Mexican</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -172,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -181,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -234,7 +235,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -285,7 +286,9 @@ $(document).ready(function () {
 
 <div id="tofu-burritos" class="section level2">
 <h2>Tofu burritos</h2>
-<p><a href="https://www.tidyverse.org/lifecycle/#maturing"><img src="https://img.shields.io/badge/lifecycle-maturing-orange.svg" alt="Lifecycle: maturing" /></a></p>
+<p><a href="https://www.tidyverse.org/lifecycle/#maturing"><img
+src="https://img.shields.io/badge/lifecycle-maturing-orange.svg"
+alt="Lifecycle: maturing" /></a></p>
 <div id="ingedients" class="section level3">
 <h3>Ingedients</h3>
 <ul>
@@ -314,8 +317,10 @@ $(document).ready(function () {
 <li>Soak ground tofu in 1/2 cup of strong beef-style stock.</li>
 <li>Brown onion in oil. Add garlic and chilli.</li>
 <li>Add spices and salt. Cook for a while.</li>
-<li>Add tofu and miso paste. Cook until stock/water begins to boil off.</li>
-<li>Add Black beans, beer and lime juice. Boil off much of the remaining fluid. Stir and let settle. Add corn flour.</li>
+<li>Add tofu and miso paste. Cook until stock/water begins to boil
+off.</li>
+<li>Add Black beans, beer and lime juice. Boil off much of the remaining
+fluid. Stir and let settle. Add corn flour.</li>
 <li>Add butter or additional oil. Stir in.</li>
 <li>Pressure cook 20mins (TBC) or slow cook (3h)</li>
 </ol>
@@ -323,13 +328,16 @@ $(document).ready(function () {
 <div id="sources" class="section level3">
 <h3>Sources</h3>
 <ul>
-<li>Inspired by: <a href="https://www.wellplated.com/tofu-tacos/" class="uri">https://www.wellplated.com/tofu-tacos/</a></li>
+<li>Inspired by: <a href="https://www.wellplated.com/tofu-tacos/"
+class="uri">https://www.wellplated.com/tofu-tacos/</a></li>
 </ul>
 </div>
 </div>
 <div id="chilli" class="section level2">
 <h2>Chilli</h2>
-<p><a href="https://www.tidyverse.org/lifecycle/#maturing"><img src="https://img.shields.io/badge/lifecycle-maturing-orange.svg" alt="Lifecycle: maturing" /></a></p>
+<p><a href="https://www.tidyverse.org/lifecycle/#maturing"><img
+src="https://img.shields.io/badge/lifecycle-maturing-orange.svg"
+alt="Lifecycle: maturing" /></a></p>
 <div id="ingredients" class="section level3">
 <h3>Ingredients</h3>
 <ul>
@@ -364,16 +372,21 @@ $(document).ready(function () {
 <ol style="list-style-type: decimal">
 <li>Brown onion, garlic, and chilli. Add in capsicum.</li>
 <li>Add spices/herbs to taste.</li>
-<li>Add tofu, tomato, beer, miso, soy sauce, sugarand stock. Stir until heated. Add butter and allow to melt.</li>
-<li>Cook on high pressure for 20 minutes. Allow to naturally release pressure ~10 min.</li>
-<li>Tasyte and add spices as required. Add beans and cook for another 10 mins.</li>
+<li>Add tofu, tomato, beer, miso, soy sauce, sugarand stock. Stir until
+heated. Add butter and allow to melt.</li>
+<li>Cook on high pressure for 20 minutes. Allow to naturally release
+pressure ~10 min.</li>
+<li>Tasyte and add spices as required. Add beans and cook for another 10
+mins.</li>
 <li>Naturally release pressure. Brown to remove any extra liquid.</li>
 </ol>
 </div>
 </div>
 <div id="mexican-style-rice" class="section level2">
 <h2>Mexican-style rice</h2>
-<p><a href="https://www.tidyverse.org/lifecycle/#maturing"><img src="https://img.shields.io/badge/lifecycle-maturing-orange.svg" alt="Lifecycle: maturing" /></a></p>
+<p><a href="https://www.tidyverse.org/lifecycle/#maturing"><img
+src="https://img.shields.io/badge/lifecycle-maturing-orange.svg"
+alt="Lifecycle: maturing" /></a></p>
 <div id="ingredients-1" class="section level3">
 <h3>Ingredients</h3>
 <ul>
@@ -400,7 +413,8 @@ $(document).ready(function () {
 <ol style="list-style-type: decimal">
 <li>Brown onion. Add garlic and chilli. Then add peas + corn.</li>
 <li>Add spices and stir until aromatic.</li>
-<li>Add tomato, tomato paste, lemon, beans, rice and chicken stock. Stir to combine.</li>
+<li>Add tomato, tomato paste, lemon, beans, rice and chicken stock. Stir
+to combine.</li>
 <li>Pressure cook for 4 minutes.</li>
 </ol>
 </div>
