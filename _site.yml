@@ -15,6 +15,19 @@ navbar:
       href: pastry.html
     - text: "Other"
       href: other.html
+      menu:
+      - text: "Home"
+        href: index.html
+      - text: "Pasta"
+        href: pasta.html
+      - text: "Mexican"
+        href: mexican.html
+      - text: "Curry"
+        href: curry.html
+      - text: "Pastries"
+        href: pastry.html
+      - text: "Other"
+        href: other.html
   right: 
     - icon: fa-github fa-lg
       href: http://github.com/ethrya/cookbook
