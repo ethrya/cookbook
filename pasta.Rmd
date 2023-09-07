@@ -65,7 +65,7 @@ title: "Pasta"
 Replace butter with olive oil for a vegan version.
 
 ## Lentil ragu
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-orange.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 
 ### Ingredients
 
@@ -76,27 +76,30 @@ Replace butter with olive oil for a vegan version.
 - 4 tomatoes
 - Butter/margarine (100g)
 - 4 Tbsp tomato paste
-- miso paste
-- soy sauce
-- cumin seeds
+- Miso paste
+- Soy sauce
 - Italian herbs
-- Praprika
-- Cayenne pepper
+- Paprika
+- Cumin powder
+- Cinnamon
+- Nutmeg
+- Black pepper
 - 5 spice
 - 1/2 cup wine
-- 4.5 cups beef stock*
+- 1 cup beef stock (strong)
 - 100 mL oat milk
-- 1/2 cup brown/green lentils
 - 1/2 cup pearl barley
-- 1/2 cup red lentils
+- 1/2 cup brown/green lentils
+- 1 cup red lentils
 
 ### Steps
 
 1. In a food processor, finely chop onion and garlic, then mushrooms, then carrot, then tomatoes.
 1. Brown onion and garlic in oil. Then add butter, some salt and mushrooms. Brown and wait for smell to change. Add carrot and tomatoes and wait for fluid to largely boil off.
-1. Add tomato paste, miso paste, soy sauce, herbs/spices, wine, 1 cup of beef stock and milk. Cook until thickened has largely boiled off.
-1. Pressure cook for 15 Mins on high.  Release pressure after 5 mins.
-1. Add remaining beef stock, lentils and barley and cook for a further 25 mins. Allow pressure to largely naturally release (around 15 mins).
+1. Add tomato paste, miso paste, soy sauce, herbs/spices (use relatively sparingly), wine, beef stock and milk. Cook until thickened has largely boiled off.
+1. Pressure cook for 20 Mins on high.  Release pressure manually.
+1. Add pearl barley and 2 cups of water. Cook on high pressure for 10 mins. Release pressure manually, noting warnings about releasing manually when cooking with pearl barley.
+1. Add lentils and 3.5 cups of water. Cook on high pressure for 15 mins.
 
 
 ### Sources
