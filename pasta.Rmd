@@ -71,8 +71,9 @@ Replace butter with olive oil for a vegan version.
 
 - 2 onions
 - 5 garlic cloves
-- carrot
 - mushrooms (300g)
+- Carrot
+- Celery
 - 4 tomatoes
 - Butter/margarine (100g)
 - 4 Tbsp tomato paste
@@ -94,17 +95,20 @@ Replace butter with olive oil for a vegan version.
 
 ### Steps
 
-1. In a food processor, finely chop onion and garlic, then mushrooms, then carrot, then tomatoes.
+1. In a food processor, finely chop onion and garlic, then mushrooms, then carrot/celery, then tomatoes.
 1. Brown onion and garlic in oil. Then add butter, some salt and mushrooms. Brown and wait for smell to change. Add carrot and tomatoes and wait for fluid to largely boil off.
 1. Add tomato paste, miso paste, soy sauce, herbs/spices (use relatively sparingly), wine, beef stock and milk. Cook until thickened has largely boiled off.
 1. Pressure cook for 20 Mins on high.  Release pressure manually.
-1. Add pearl barley and 2 cups of water. Cook on high pressure for 10 mins. Release pressure manually, noting warnings about releasing manually when cooking with pearl barley.
+1. Add pearl barley and 2 cups of water. Cook on high pressure for 10 mins (increase to 15 mins for less chewy pearl barley). Release pressure manually, noting warnings about releasing manually when cooking with pearl barley.
 1. Add lentils and 3.5 cups of water. Cook on high pressure for 15 mins.
 
 
 ### Sources
 - Inspired by: *The ultimate traybake ragu*, Y. Ottolenghi and I. Belfrage 2020, Flavour, Ebury Press. *This recipe is clearly a traybake ragu and is clearly very different. The ingredients are very similar but the method is pretty much completely different.*
 
+### Notes
+- The cooking times are currently indicative. The first pressure cook is optional, but is partly intended to break down the veges. It can be increased/decreased depending on hoe chopped the veges are (increase if they are less chopped).
+- Spices should be used reasonably sparingly and are largely optional (pepper and praprica seem t obe good though). I'm still not sure which set of spices are optimal
 
 ## Brocolli cream pasta
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
