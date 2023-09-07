@@ -9,17 +9,20 @@ library(tidyverse)
 ```
 
 <!-- badges: start -->
+
 [![](https://img.shields.io/badge/lifecycle-maturing-blue.svg){fig-align="left"}](https://www.tidyverse.org/lifecycle/#maturing)
+
 <!-- badges: end -->
 
 # Introduction
+
 This website contains vegan and vegetarian recipes that I have adapted from a range of sources.
 
 It is intended to be a place for me to document my latest attempts and thoughts, rather than a polished website for public use. Therefore, the text is rough in parts.
 
 Most are a work in progress and change regularly as I learn more.
 
-# Summary
+# List of recipies
 
 The recipes contained in this website are:
 
@@ -40,9 +43,7 @@ get_recipies <- function(file_name){
 
 }
 
-pages <- c("pasta.qmd")
-
-#"curry.Rmd", "mexican.Rmd", "pastry.Rmd", "other.Rmd")
+pages <- c("pasta.qmd", "curry.qmd", "mexican.qmd", "pastry.qmd", "other.qmd")
 
 purrr::map_dfr(pages, get_recipies) %>%
   flextable::flextable() %>%
@@ -51,8 +52,8 @@ purrr::map_dfr(pages, get_recipies) %>%
   flextable::color(color = "black", part = "all")
 ```
 
-
 # Disclaimer
+
 In my view, these recipes are all substantially original so that publishing them here does not violate copyright. Sources of inspiration have been noted, although substantially changes have been made to the ingredients (e.g. by replacing meat) or methods (e.g. by using a pressure cooker). If you disagree, please contact me and request removal.
 
 ![Creative Commons Licence](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)C.
