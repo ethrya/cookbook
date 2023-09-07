@@ -10,7 +10,7 @@ library(tidyverse)
 
 <!-- badges: start -->
 
-[![](https://img.shields.io/badge/lifecycle-maturing-blue.svg){fig-align="left"}](https://www.tidyverse.org/lifecycle/#maturing)
+[![](https://img.shields.io/badge/lifecycle-maturing-orange.svg){fig-align="left"}](https://www.tidyverse.org/lifecycle/#maturing)
 
 <!-- badges: end -->
 
@@ -56,4 +56,4 @@ purrr::map_dfr(pages, get_recipies) %>%
 
 In my view, these recipes are all substantially original so that publishing them here does not violate copyright. Sources of inspiration have been noted, although substantially changes have been made to the ingredients (e.g. by replacing meat) or methods (e.g. by using a pressure cooker). If you disagree, please contact me or [submit an issue](https://github.com/ethrya/cookbook/issues) and request removal.
 
-![Creative Commons Licence](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)C.
+![Creative Commons Licence](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
