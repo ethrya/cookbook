@@ -1,0 +1,1 @@
+Sitemap: https://ethrya.github.io/cookbook/sitemap.xml
