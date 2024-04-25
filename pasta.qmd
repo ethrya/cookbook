@@ -132,3 +132,6 @@ Replace butter with olive oil for a vegan version.
 
 ### Sources
 - Adapted from: [Salt Fat Acid Heat's](https://www.saltfatacidheat.com) (Samin Nosrat) *Pasta with broccoli and bread crumbs* and *Pasta cacio e pepe*
+
+## Roast vegetable pasta
+[![](https://img.shields.io/badge/lifecycle-experimental-orange.svg){fig-align="left"}](https://www.tidyverse.org/lifecycle/#experimental)
