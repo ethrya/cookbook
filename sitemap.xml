@@ -2,26 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ethrya.github.io/cookbook/curry.html</loc>
-    <lastmod>2023-09-07T01:59:00.903Z</lastmod>
+    <lastmod>2024-05-18T07:38:06.281Z</lastmod>
   </url>
   <url>
     <loc>https://ethrya.github.io/cookbook/pasta.html</loc>
-    <lastmod>2023-09-07T01:58:59.968Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ethrya.github.io/cookbook/index.html</loc>
-    <lastmod>2023-09-07T01:58:59.136Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ethrya.github.io/cookbook/mexican.html</loc>
-    <lastmod>2023-09-07T01:58:57.720Z</lastmod>
+    <lastmod>2024-05-18T07:38:05.480Z</lastmod>
   </url>
   <url>
     <loc>https://ethrya.github.io/cookbook/pastry.html</loc>
-    <lastmod>2023-09-07T01:58:59.516Z</lastmod>
+    <lastmod>2024-05-18T07:38:04.809Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ethrya.github.io/cookbook/mexican.html</loc>
+    <lastmod>2024-05-18T07:38:02.955Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ethrya.github.io/cookbook/index.html</loc>
+    <lastmod>2024-05-18T07:38:04.446Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ethrya.github.io/cookbook/cooking_reference.html</loc>
+    <lastmod>2024-05-18T07:38:05.056Z</lastmod>
   </url>
   <url>
     <loc>https://ethrya.github.io/cookbook/other.html</loc>
-    <lastmod>2023-09-07T01:59:00.317Z</lastmod>
+    <lastmod>2024-05-18T07:38:05.854Z</lastmod>
   </url>
 </urlset>
