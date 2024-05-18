@@ -1,0 +1,11 @@
+---
+  title: "Cooking info"
+---
+
+## Cooking times
+
+| Item          | Amount of item | Amount of fluid | Cooking Time | Notes                            |
+|---------------|----------------|-----------------|--------------|----------------------------------|
+| Brown lentils | 1              | 1.75            | 8            | Also include dash of oil, spices |
+|               |                |                 |              |                                  |
+|               |                |                 |              |                                  |
