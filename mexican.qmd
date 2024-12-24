@@ -109,3 +109,25 @@ title: "Mexican"
 2.  Add spices and stir until aromatic.
 3.  Add tomato, tomato paste, lemon, beans, rice and chicken stock. Stir to combine.
 4.  Pressure cook for 4 minutes.
+
+## Guacamole
+
+[![](https://img.shields.io/badge/lifecycle-stable-green.svg){fig-align="left"}](https://www.tidyverse.org/lifecycle/#stable)
+
+### Ingredients
+
+- Onion
+- Chilli
+- Corriander
+- Salt
+- Tomato
+- Avacado
+- Cumin (1/2 teaspoon, max)
+- Lime juice
+
+### Steps
+
+1. Mince onion, chilli, corriander and salt together, ideally with a mortar and pestle
+1. Add to a bowl with tomatoes, additional onion, 1/4 of the avacado, and cumin. Mix together into a reasonably consistent mix.
+1. Add remaining avocado so that it remains chunky. You may want to use different avocado chunk sizes.
+1. Add lime juice.
