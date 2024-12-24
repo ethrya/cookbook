@@ -104,3 +104,66 @@ Adapted from: https://www.foodnetwork.com/recipes/robert-irvine/red-beans-and-ri
 * Denotes optional ingredient
 ---
 
+
+# Falafel
+
+[![](https://img.shields.io/badge/lifecycle-maturing-orange.svg){fig-align="left"}](https://www.tidyverse.org/lifecycle/#maturing)
+
+## Ingredients
+
+### Core Ingredients:
+- **Chickpeas**: 2 cups, dried, soaked overnight
+- **Brown Onion or Shallots**
+- **Garlic**: 4–6 cloves
+- **Fresh Parsley**: 1/2-1 cup
+- **Fresh Cilantro**: 1 cup
+- **Paprika**
+- **Cumin**
+- **Ground Coriander**
+- **Salt**
+- **Black Pepper**
+- **Water**: As needed, a tablespoon at a time, to add moisture if the mixture feels too dry.
+
+### Optional Add-ins:
+- **Mint**
+- **Lemon Zest**
+- **Chili**: 1/2 large red chillies
+- **Fresh Ginger**: one small piece
+- **Turmeric**
+- **Sunflower Seeds**
+
+---
+
+## Instructions
+
+### Preparing the Mixture
+1. **Soak the Chickpeas**  
+   Place dried chickpeas in a large bowl and cover with plenty of water. Soak overnight (8–12 hours) until they are plump and softened. Drain and allow to dry.
+
+2. **Blend the Ingredients**  
+   In a food processor, combine the soaked chickpeas, onion, garlic, parsley, cilantro, and all spices. Pulse the mixture in short bursts until it has a coarse, grainy texture. It should hold together when pressed but not turn into a paste. Avoid over-blending.
+
+3. **Adjust Consistency**  
+   If the mixture feels too dry, add water one tablespoon at a time. If it’s too wet or loose, refrigerate to firm it up. Optionally, add a small amount of chickpea flour or breadcrumbs for extra binding.
+
+4. **Chill the Mixture**  
+   Transfer the falafel mixture to a bowl, cover, and refrigerate for at least 30 minutes to allow the flavors to meld and make shaping easier.
+
+---
+
+### Frying Instructions
+5. **Prepare the Oil**  
+   Heat vegetable, canola, or sunflower oil in a deep skillet or pot to 180–190°C. Use a thermometer for accuracy.
+
+6. **Shape the Falafel**  
+   Scoop about 2 tablespoons of the chilled mixture and shape it into balls or small patties. Work quickly to prevent the mixture from warming up.
+
+7. **Test the Oil**  
+   Drop a small piece of the falafel mixture into the oil. If it sizzles without burning, the oil is ready.
+
+8. **Fry the Falafel**  
+   Gently lower falafel balls or patties into the hot oil. Fry each side until golden brown and crispy.
+
+9. **Drain the Falafel**  
+   Remove the falafel from the oil and transfer them to a plate lined with paper towels to drain excess oil.
+
