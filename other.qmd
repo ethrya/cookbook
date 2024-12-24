@@ -105,13 +105,13 @@ Adapted from: https://www.foodnetwork.com/recipes/robert-irvine/red-beans-and-ri
 ---
 
 
-# Falafel
+## Falafel
 
 [![](https://img.shields.io/badge/lifecycle-maturing-orange.svg){fig-align="left"}](https://www.tidyverse.org/lifecycle/#maturing)
 
-## Ingredients
+### Ingredients
 
-### Core Ingredients:
+#### Core Ingredients:
 - **Chickpeas**: 2 cups, dried, soaked overnight
 - **Brown Onion or Shallots**
 - **Garlic**: 4–6 cloves
@@ -124,7 +124,7 @@ Adapted from: https://www.foodnetwork.com/recipes/robert-irvine/red-beans-and-ri
 - **Black Pepper**
 - **Water**: As needed, a tablespoon at a time, to add moisture if the mixture feels too dry.
 
-### Optional Add-ins:
+#### Optional Add-ins:
 - **Mint**
 - **Lemon Zest**
 - **Chili**: 1/2 large red chillies
@@ -134,9 +134,9 @@ Adapted from: https://www.foodnetwork.com/recipes/robert-irvine/red-beans-and-ri
 
 ---
 
-## Instructions
+### Instructions
 
-### Preparing the Mixture
+#### Preparing the Mixture
 1. **Soak the Chickpeas**  
    Place dried chickpeas in a large bowl and cover with plenty of water. Soak overnight (8–12 hours) until they are plump and softened. Drain and allow to dry.
 
@@ -151,7 +151,7 @@ Adapted from: https://www.foodnetwork.com/recipes/robert-irvine/red-beans-and-ri
 
 ---
 
-### Frying Instructions
+#### Frying Instructions
 5. **Prepare the Oil**  
    Heat vegetable, canola, or sunflower oil in a deep skillet or pot to 180–190°C. Use a thermometer for accuracy.
 
