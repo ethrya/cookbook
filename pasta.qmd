@@ -17,9 +17,14 @@ title: "Pasta"
 - Oregano
 - Basil
 - Miso paste
-- Praprika
-- Butter (100g)
+- Soy sauce
+- Paprika
+- Olive oil
+- Butter (100g) or margarine
 - Wine*
+- Liquid smoke*
+- *Nutritional yeast
+
 
 ### Steps
 1. Brown onion. Add garlic. Add tofu and begin to brown. Add tomato. Stir and add stock.
@@ -30,6 +35,7 @@ title: "Pasta"
 ### Notes
 - I normally just use an Italian herb blend instead of the fresh herbs now
 
+- * denotes an optional ingredient
 ### Sources
 - Adapted from: Aunty Louise's recipe
 
