@@ -170,7 +170,9 @@ Adapted from: https://www.foodnetwork.com/recipes/robert-irvine/red-beans-and-ri
    Remove the falafel from the oil and transfer them to a plate lined with paper towels to drain excess oil.
    
    
-## Smoky Eggplant, Tofu & Mushroom Dumpling Filling (vegetarian) [![](https://img.shields.io/badge/lifecycle-maturing-orange.svg){fig-align="left"}](https://www.tidyverse.org/lifecycle/#maturing)
+## Smoky Eggplant, Tofu & Mushroom Dumpling Filling (vegetarian)
+
+[![](https://img.shields.io/badge/lifecycle-maturing-orange.svg){fig-align="left"}](https://www.tidyverse.org/lifecycle/#maturing)
 
 ### Ingredients
 - Oil  
