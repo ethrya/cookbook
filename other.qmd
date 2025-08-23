@@ -168,4 +168,38 @@ Adapted from: https://www.foodnetwork.com/recipes/robert-irvine/red-beans-and-ri
 
 9. **Drain the Falafel**  
    Remove the falafel from the oil and transfer them to a plate lined with paper towels to drain excess oil.
+   
+   
+## Smoky Eggplant, Tofu & Mushroom Dumpling Filling (vegetarian) [![](https://img.shields.io/badge/lifecycle-maturing-orange.svg){fig-align="left"}](https://www.tidyverse.org/lifecycle/#maturing)
+
+### Ingredients
+- Oil  
+- Onion (1, minced)  
+- Garlic  
+- Ginger  
+- ½ long fresh chili  
+- Carrot (1 small, grated)  
+- Mushrooms (1 cup, ~300 g, finely chopped)  
+- Eggplant (450 g, steamed until soft)  
+- Tofu (300 g, firm, crumbled)  
+- Soy sauce **  
+- Miso paste **  
+- Shaoxing wine *  
+- Liquid smoke *  
+- Smoked paprika **  
+- Turmeric *  
+- Salt & pepper **  
+
+### Steps
+1. Steam eggplant until soft, set aside.  
+2. Heat oil, sauté onion until soft. Add garlic, ginger, chili; cook briefly.  
+3. Add carrot, mushrooms, tofu. Stir-fry until moisture cooks off.  
+4. Deglaze with wine, add soy sauce, miso, liquid smoke, paprika, turmeric. Stir to combine.  
+5. Add eggplant, mash in, season with salt & pepper. Cook until thick.  
+6. Cool before filling dumplings.  
+
+---
+
+**Inspired by:** *Kenji López-Alt, The Wok* (adapted with tofu, chili, and smoked spices).  
+
 
