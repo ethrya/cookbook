@@ -27,16 +27,32 @@ title: "Pasta"
 
 
 ### Steps
+
+::: {.panel-tabset}
+
+## Pressure cooker
+
 1. Brown onion. Add garlic. Add tofu and begin to brown. Add tomato. Stir and add stock.
 1. Add spices and herbs. Add butter and wine. Allow butter to melt.
 1. Pressure cook 20 mins. Release after 5 mins.
 1. Boil off excess fluid.
 
-### Notes
-- I normally just use an Italian herb blend instead of the fresh herbs now
+## Stovetop
 
-- * denotes an optional ingredient
+1. Brown onion. Add garlic. Add tofu and begin to brown. Add tomato. Stir and add stock.
+1. Add spices and herbs. Add butter and wine. Allow butter to melt.
+1. Bring to a simmer, cover, and cook gently ~45 mins, stirring occasionally, until rich and thickened. Top up with a little water if it dries out.
+1. Uncover and boil off any excess fluid.
+
+:::
+
+### Notes
+
+- I normally just use an Italian herb blend instead of the fresh herbs now
+- \* denotes an optional ingredient
+
 ### Sources
+
 - Adapted from: Aunty Louise's recipe
 
 ## Eggplant and black bean pasta
@@ -57,10 +73,23 @@ title: "Pasta"
 
 ### Steps
 
-1. Add butter to cooker on sautee. Allow to melt and add eggplant and salt. Allow egplant to soften. Once soft add onion and allow to brown. Once brown add garlic for ~1 min. Add tomato cans and beans.
+::: {.panel-tabset}
+
+## Pressure cooker
+
+1. Add butter to cooker on sauté. Allow to melt and add eggplant and salt. Allow eggplant to soften. Once soft add onion and allow to brown. Once brown add garlic for ~1 min. Add tomato cans and beans.
 1. Pressure cook on high pressure for 10 mins.
 1. Release manually. Add olives and 100 mL of olive oil. Pressure cook for another 10 mins.
 1. Cook pasta while allowing to naturally release pressure.
+
+## Stovetop
+
+1. Add butter to a pot on medium heat. Allow to melt and add eggplant and salt. Allow eggplant to soften. Once soft add onion and allow to brown. Once brown add garlic for ~1 min. Add tomato cans and beans.
+1. Bring to a simmer, cover, and cook ~20 mins, stirring occasionally.
+1. Add olives and 100 mL of olive oil. Simmer uncovered a further ~15 mins until the eggplant is soft and the sauce is thick.
+1. Cook pasta and stir through the sauce.
+
+:::
 
 ### Sources
 - Adapted from: [Salt Fat Acid Heat's](https://www.saltfatacidheat.com) (Samin Nosrat) *Pasta alla Pomarola* (p. 292)
@@ -101,6 +130,10 @@ Replace butter with olive oil for a vegan version.
 
 ### Steps
 
+::: {.panel-tabset}
+
+## Pressure cooker
+
 1. In a food processor, finely chop onion and garlic, then mushrooms, then carrot/celery, then tomatoes.
 1. Brown onion and garlic in oil. Then add butter, some salt and mushrooms. Brown and wait for smell to change. Add carrot and tomatoes and wait for fluid to largely boil off.
 1. Add tomato paste, miso paste, soy sauce, herbs/spices (use relatively sparingly), wine, beef stock and milk. Cook until thickened has largely boiled off.
@@ -108,15 +141,25 @@ Replace butter with olive oil for a vegan version.
 1. Add pearl barley and 2 cups of water. Cook on high pressure for 10 mins (increase to 15 mins for less chewy pearl barley). Release pressure manually, noting warnings about releasing manually when cooking with pearl barley.
 1. Add lentils and 3.5 cups of water. Cook on high pressure for 15 mins.
 
+## Stovetop
+
+1. In a food processor, finely chop onion and garlic, then mushrooms, then carrot/celery, then tomatoes.
+1. Brown onion and garlic in oil. Then add butter, some salt and mushrooms. Brown and wait for smell to change. Add carrot and tomatoes and wait for fluid to largely boil off.
+1. Add tomato paste, miso paste, soy sauce, herbs/spices (use relatively sparingly), wine, beef stock and milk. Cook until thickened has largely boiled off.
+1. Simmer covered ~30 mins to develop the base, stirring occasionally.
+1. Add pearl barley and 2 cups of water. Simmer covered ~30--40 mins until the barley is tender, topping up water as needed.
+1. Add lentils and 3.5 cups of water. Simmer ~25--30 mins until the lentils are soft, stirring occasionally so it doesn't catch.
+
+:::
 
 ### Sources
 - Inspired by: *The ultimate traybake ragu*, Y. Ottolenghi and I. Belfrage 2020, Flavour, Ebury Press. *This recipe is clearly a traybake ragu and is clearly very different. The ingredients are very similar but the method is pretty much completely different.*
 
 ### Notes
-- The cooking times are currently indicative. The first pressure cook is optional, but is partly intended to break down the veges. It can be increased/decreased depending on hoe chopped the veges are (increase if they are less chopped).
-- Spices should be used reasonably sparingly and are largely optional (pepper and praprica seem t obe good though). I'm still not sure which set of spices are optimal
+- The cooking times are currently indicative. The first pressure cook is optional, but is partly intended to break down the veges. It can be increased/decreased depending on how chopped the veges are (increase if they are less chopped).
+- Spices should be used reasonably sparingly and are largely optional (pepper and paprika seem to be good though). I'm still not sure which set of spices are optimal
 
-## Brocolli cream pasta
+## Broccoli cream pasta
 [![](https://img.shields.io/badge/lifecycle-experimental-orange.svg){fig-align="left"}](https://www.tidyverse.org/lifecycle/#experimental)
 
 ### Ingredients

@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Ethan's Cookbook"
+  navbar:
+    background: primary
+    foreground: light
+    left:
+      - index.qmd
+      - pasta.qmd
+      - curry.qmd
+      - mexican.qmd
+      - pastry.qmd
+      - other.qmd
+      - cooking_reference.qmd
+  search:
+    location: navbar
+    type: overlay
+
+format:
+  html:
+    theme:
+      - sandstone
+      - custom.scss
+    toc: true
+    toc-location: left
+    fontsize: 1.1rem

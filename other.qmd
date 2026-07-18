@@ -24,17 +24,30 @@ title: "Other"
 
 ### Steps
 
+::: {.panel-tabset}
+
+## Pressure cooker
+
 1. Cook mushrooms in oil and/or margarine and salt until it begins to soften. Add eggplant and allow this to soften. Then add onion. Then make space in the pan, add more oil and quickly cook garlic in this.
 1. Add in rice and allow to toast. While cooking, add in pepper, italian herbs, miso paste and soy sauce.
 1. Add in wine and allow to partially cook off. While cooking off, add peas and olives. Once cooked off add stock.
-1. Cook on low pressure for 5 mins. Once finished, forcibly release pressure. Stir and then set to brown until remaining liquid boils off, while stiring regularly. A small amount of liquid can remain.
+1. Cook on low pressure for 5 mins. Once finished, forcibly release pressure. Stir and then set to brown until remaining liquid boils off, while stirring regularly. A small amount of liquid can remain.
+
+## Stovetop
+
+1. Cook mushrooms in oil and/or margarine and salt until it begins to soften. Add eggplant and allow this to soften. Then add onion. Then make space in the pan, add more oil and quickly cook garlic in this.
+1. Add in rice and allow to toast. While cooking, add in pepper, italian herbs, miso paste and soy sauce.
+1. Add in wine and allow to partially cook off. While cooking off, add peas and olives.
+1. Once the wine has cooked off, add the stock a ladleful at a time, stirring regularly and letting each addition absorb before adding the next (~18--22 mins), until the rice is creamy and al dente. A small amount of liquid can remain.
+
+:::
 
 ### Source
 - Inspired by: https://www.seriouseats.com/pressure-cooker-mushroom-risotto-recipe
 - Inspired by: https://cooking.nytimes.com/recipes/1015845-pressure-cooker-porcini-risotto
 
 ### Notes
-I was concerned about not including butter or cheese. But this was actually fine and turneed out to be a bit lighter (better?) than other risottos I have made, but still rich enough.
+I was concerned about not including butter or cheese. But this was actually fine and turned out to be a bit lighter (better?) than other risottos I have made, but still rich enough.
 
 ## Red beans and rice
 
@@ -54,9 +67,22 @@ I was concerned about not including butter or cheese. But this was actually fine
 - Butter (20g)
 
 ### Steps
+
+::: {.panel-tabset}
+
+## Pressure cooker
+
 1. Brown onion and garlic. Add celery and capsicum. Cook until tender.
 1. Add kidney beans and spices.
-1. Cook 12 mins on rice setting (low pressure) (tbc). Release pressure naturally.
+1. Add rice and stock. Cook 12 mins on rice setting (low pressure) (tbc). Release pressure naturally.
+
+## Stovetop
+
+1. Brown onion and garlic. Add celery and capsicum. Cook until tender.
+1. Add kidney beans and spices.
+1. Add rice and stock, bring to a boil, then cover and cook on low ~18--20 mins until the rice is tender and the liquid absorbed. Rest covered 5 mins, then fluff.
+
+:::
 
 ### Source
 Adapted from: https://www.foodnetwork.com/recipes/robert-irvine/red-beans-and-rice-recipe-1950779
@@ -79,7 +105,7 @@ Adapted from: https://www.foodnetwork.com/recipes/robert-irvine/red-beans-and-ri
 - 1L Stock (Chicken)
 - Parsley/italian herbs
 - Pepper
-- Praprika
+- Paprika
 - Salt
 - Pepper
 - Cinnamon*
@@ -96,13 +122,13 @@ Adapted from: https://www.foodnetwork.com/recipes/robert-irvine/red-beans-and-ri
 2. Add minced garlic and chopped green chili to the pot. Sauté briefly, stirring constantly, until fragrant, about 1 minute.
 3. Pour in the wine, allowing it to simmer until most of it has evaporated, stirring occasionally. This step enhances the flavor of the soup.
 4. Add the lentils, crushed tomatoes, chicken stock, parsley or Italian herbs, and selected spices. Optionally, add a modest amount of miso paste and soy sauce for depth of flavor.
-5. Bring the mixture to a gentle boil over medium-high heat. Once boiling, reduce the heat to low, cover the pot.Allow the soup to simmer for approximately 1 hour, adjusting the cooking time to achieve your preferred level of tenderness for the lentils. Stir occasionally to prevent sticking.
+5. Bring the mixture to a gentle boil over medium-high heat. Once boiling, reduce the heat to low, cover the pot. Allow the soup to simmer for approximately 1 hour, adjusting the cooking time to achieve your preferred level of tenderness for the lentils. Stir occasionally to prevent sticking.
 
 ---
 
 ### Notes
-* Denotes optional ingredient
----
+
+\* Denotes optional ingredient
 
 
 ## Falafel
