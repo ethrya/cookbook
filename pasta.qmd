@@ -184,3 +184,28 @@ Replace butter with olive oil for a vegan version.
 
 ## Roast vegetable pasta
 [![](https://img.shields.io/badge/lifecycle-experimental-orange.svg){fig-align="left"}](https://www.tidyverse.org/lifecycle/#experimental)
+
+### Ingredients
+
+- Eggplant
+- Zucchini
+- Capsicum
+- Red onion
+- Cherry tomatoes
+- Garlic (whole cloves)
+- Olive oil
+- Italian herbs
+- Salt + pepper
+- Balsamic vinegar (optional)
+- Pasta
+- Basil (optional)
+
+### Steps
+
+1. Chop the vegetables into chunks. Spread on a tray, toss with olive oil, salt, pepper and Italian herbs.
+1. Roast at 200°C for ~30–40 mins until soft and caramelised, turning once. Add the whole garlic cloves partway through so they don't burn.
+1. Cook the pasta. Toss the roast vegetables through it with a splash of pasta water and a little olive oil. Finish with balsamic and basil to taste.
+
+### Notes
+
+- Starting point only — adjust the vegetable mix and roasting time to taste.

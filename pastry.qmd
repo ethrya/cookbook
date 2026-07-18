@@ -6,7 +6,7 @@ title: "Pastry"
 
 [![](https://img.shields.io/badge/lifecycle-experimental-orange.svg){fig-align="left"}](https://www.tidyverse.org/lifecycle/#experimental)
 
-#### Ingredients
+### Ingredients
 
 -   beans (3x cans)
 -   tofu (200g)
@@ -31,7 +31,7 @@ title: "Pastry"
 
 Key: \> a little (\~1/2 tsp), \>\> some (1 tsp), \>\>\> plenty (\~3 tsp)
 
-#### Steps
+### Steps
 
 1.  Brown finely chopped onion. Then add garlic, chilli and ginger until aromatic. Add spices and soy sauce and wait for smell to change.
 2.  Add eggplant and $\approx 1$ cup water, allow to soften. Then add tofu and cook until spice begins to absorb.
@@ -39,11 +39,11 @@ Key: \> a little (\~1/2 tsp), \>\> some (1 tsp), \>\>\> plenty (\~3 tsp)
 4.  Stir the beans into the tofu/eggplant mix. Add bread.
 5.  Put mix into pastry and bake on $180^oC$ until brown.
 
-### Sausage Rolls
+## Sausage Rolls
 
 [![](https://img.shields.io/badge/lifecycle-deprecated-orange.svg){fig-align="left"}](https://www.tidyverse.org/lifecycle/#deprecated)
 
-#### Ingredients
+### Ingredients
 
 -   Base mix (see below)
 -   Italian herbs \>\>\>
@@ -62,16 +62,16 @@ Key: \> a little (\~1/2 tsp), \>\> some (1 tsp), \>\>\> plenty (\~3 tsp)
 -   Almond milk
 -   Sesame seeds
 
-#### Steps
+### Steps
 
 1.  Use one portion of base mix. Add herbs, spices and bread and mix together. Add oil and stir thoroughly.
 2.  Put mince onto pastry and roll. Top with almond milk and sesame seeds Cook in oven at 200C for 25 mins (time will depend on oven heat and roll size).
 
-### Bean and eggplant base mix
+## Bean and eggplant base mix
 
 [![](https://img.shields.io/badge/lifecycle-deprecated-orange.svg){fig-align="left"}](https://www.tidyverse.org/lifecycle/#deprecated)
 
-#### Ingredients
+### Ingredients
 
 -   eggplant
 -   onion
@@ -79,18 +79,18 @@ Key: \> a little (\~1/2 tsp), \>\> some (1 tsp), \>\>\> plenty (\~3 tsp)
 -   oil
 -   beans (2x cans)
 
-#### Steps
+### Steps
 
 1.  Slice eggplant and rub with salt. Wait 20 mins.
 2.  Finely dice eggplant, onion and garlic.
 3.  Brown onion, then add eggplant and allow to soften. Then add garlic.
 4.  Mince beans into a smoothish paste. Add to the onion/eggplant mixture. Add additional oil if required.
 
-### Mushroom and eggplant
+## Mushroom and eggplant
 
 [![](https://img.shields.io/badge/lifecycle-experimental-orange.svg){fig-align="left"}](https://www.tidyverse.org/lifecycle/#experimental)
 
-#### Ingredients
+### Ingredients
 
 -   Mushrooms (200g)
 -   Eggplant
@@ -100,7 +100,7 @@ Key: \> a little (\~1/2 tsp), \>\> some (1 tsp), \>\>\> plenty (\~3 tsp)
 -   Oil
 -   Butter
 
-#### Steps
+### Steps
 
 1.  Slice eggplant and rub with salt. Wait 30 mins.
 
